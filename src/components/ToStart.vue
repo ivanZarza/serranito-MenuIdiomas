@@ -18,7 +18,7 @@ defineProps({
 <template>
 
 <div class="base">
-  <div class="cap">
+  <div class="cap-ToStart">
     <div class="name">
       <TransitionGroup name="all" tag="ul">
         <li v-for="el, in start" key="el.name">{{ el.name }}</li>
@@ -47,7 +47,7 @@ defineProps({
   border-radius: 50px;
   
 }
-.cap {
+.cap-ToStart {
   width: auto;
   height: 90%;
   border: 3px thin black;
@@ -56,10 +56,14 @@ defineProps({
   display: grid;
   grid-template-columns: 3fr 1fr 1fr;
   border-radius: 50px;
-  box-shadow: 0px 0px 10px rgb(0, 0, 0) inset,0px 0px 20px rgb(255, 48, 83)inset,0px 0px 40px rgb(255, 80, 109) inset,0px 0px 80px rgb(255, 122, 144) inset,0px 0px 60px rgb(255, 154, 171) inset;
+  background: white;
+  color: black;
+
+  animation: fade-in-left 250ms ease-in-out;
+  /*box-shadow: 0px 0px 10px rgb(0, 0, 0) inset,0px 0px 20px rgb(255, 48, 83)inset,0px 0px 40px rgb(255, 80, 109) inset,0px 0px 80px rgb(255, 122, 144) inset,0px 0px 60px rgb(255, 154, 171) inset;
   background-color: black;
   background-clip: text;
-  text-shadow: 0px 1.0px 1.0px rgba(209, 209, 209, 0.479),0px 0px 1px rgba(0, 0, 0, 0);
+  text-shadow: 0px 1.0px 1.0px rgba(209, 209, 209, 0.479),0px 0px 1px rgba(0, 0, 0, 0);*/
 }
 .all-enter-active, .all-leave-active {
   transition: all 1.5s ease-in-out

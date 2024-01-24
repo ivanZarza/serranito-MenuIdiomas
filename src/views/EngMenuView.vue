@@ -1,35 +1,45 @@
 <script setup>
-import { defineAsyncComponent, ref } from 'vue'
+import { defineAsyncComponent, ref, shallowRef } from 'vue'
 import { start,bread,stew,share,friet,sea,meat,special,adds } from '@/data/enMenu';
 
-const menuSection = ref()
+const components = {
+  start: defineAsyncComponent(()=> import('../components/ToStart.vue')),
+  bread: defineAsyncComponent(()=> import('../components/WhithBread.vue')),
+  stew: defineAsyncComponent(()=> import('../components/TraditionalStew.vue')),
+  share: defineAsyncComponent(()=> import('../components/ToShare.vue')),
+  friet: defineAsyncComponent(()=> import('../components/SevillianFriedFood.vue')),
+  sea: defineAsyncComponent(()=> import('../components/FromSea.vue')),
+  meat: defineAsyncComponent(()=> import('../components/FromPasture.vue')),
+  special: defineAsyncComponent(()=> import('../components/HouseSpecialities.vue')),
+  adds: defineAsyncComponent(()=> import('../components/MixAccessories.vue')),
+}
 
-const ToStart = defineAsyncComponent(()=> import('../components/ToStart.vue'))
-const WithBread = defineAsyncComponent(()=> import('../components/WhithBread.vue'))
-const TraditionalStews = defineAsyncComponent(()=> import('../components/TraditionalStew.vue'))
-const ToShare = defineAsyncComponent(()=> import('../components/ToShare.vue'))
-const SevillianFriedFood = defineAsyncComponent(()=> import('../components/SevillianFriedFood.vue'))
-const FromSea = defineAsyncComponent(()=> import('../components/FromSea.vue'))
-const FromPature = defineAsyncComponent(()=> import('../components/FromPasture.vue'))
-const HouseSpecialities = defineAsyncComponent(()=> import('../components/HouseSpecialities.vue'))
-const MixAccessories = defineAsyncComponent(()=> import('../components/MixAccessories.vue'))
+const dataSources = {
+  start,bread,stew,share,friet,sea,meat,special,adds,
+}
 
-const change = (component) => menuSection.value = component
+const menuSection = shallowRef(components.start)
+const change = (sectionName) => {
+  menuSection.value = components[sectionName]
+  data.value = dataSources[sectionName]
+}
+
+const data = ref(dataSources.start)
 </script>
 
 <template>
   <div>
-    <button class="fondo" @click="change(ToStart)">To start</button>
-    <button class="fondo" @click="change(WithBread)">Whith bread</button>
-    <button class="fondo"  @click="change(TraditionalStews)">Traditional stews </button>
-    <button class="fondo"  @click="change(ToShare)">To share</button>
-    <button class="fondo"  @click="change(SevillianFriedFood)">Sevillian fried food</button>
-    <button class="fondo"  @click="change(FromSea)">From sea</button>
-    <button class="fondo"  @click="change(FromPature)">From pasture</button>
-    <button class="fondo"  @click="change(HouseSpecialities)">House specialities</button>
-    <button class="fondo"  @click="change(MixAccessories)">Mix accessories</button>
+    <button class="fondo" @click="change('start')">To start</button>
+    <button class="fondo" @click="change('bread')">Whith bread</button>
+    <button class="fondo"  @click="change('stew')">Traditional stews </button>
+    <button class="fondo"  @click="change('share')">To share</button>
+    <button class="fondo"  @click="change('friet')">Sevillian fried food</button>
+    <button class="fondo"  @click="change('sea')">From sea</button>
+    <button class="fondo"  @click="change('meat')">From pasture</button>
+    <button class="fondo"  @click="change('special')">House specialities</button>
+    <button class="fondo"  @click="change('adds')">Mix accessories</button>
   </div>
-  <Transition name="start"> 
+  <!--<Transition name="start"> -->
   <component :is="menuSection"
     :start="start"
     :bread="bread"
@@ -41,25 +51,44 @@ const change = (component) => menuSection.value = component
     :special="special"
     :adds="adds"
   />
-</Transition>
+<!--</Transition> -->
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Plate</th>
+          <th>Ration</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="{ name, price, price2 } in data" :key="name">
+          <td>{{ name }}</td>
+          <td>{{ price }}</td>
+          <td>{{ price2 }}</td>
+        </tr>
+      </tbody>
+    </table>
 </template>
 
 
 <style scoped >
-.fondo {
+button {
   margin: 2px;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
+  font-weight: bold;
   padding: 5px;
   width: 100px;
   height: 40px;
-  color: rgb(0, 0, 0);
-  background-color:black;
-  background-image: linear-gradient(rgb(255, 225, 53),rgb(155, 132, 0),rgb(255, 222, 37),rgba(122, 104, 0, 0.87));
-  border-radius: 100%;
-  border: 1px solid black;
-  box-shadow: 0px 0px 5px black inset;
-  text-shadow: 0px 0px 6px rgb(255, 255, 255) ;
+  color: #2e3191;
+  background-color: var(--color-primary);
+  /* background-image: linear-gradient(rgb(255, 225, 53),rgb(155, 132, 0),rgb(255, 222, 37),rgba(122, 104, 0, 0.87)); */
+  border-radius: 15px 15px 0 0;
+  border: 0
+  /* border: 1px solid black; */
+  /* box-shadow: 0px 0px 5px black inset; */
+  /* text-shadow: 0px 0px 6px rgb(255, 255, 255) ; */
 }
 
 button:active {
