@@ -25,6 +25,7 @@ import { RouterLink, RouterView } from 'vue-router'
   height: 250px;
   background-color: var(--color-primary);
   border-radius: 20%;
+  border: none;
 }
 
   .change {
