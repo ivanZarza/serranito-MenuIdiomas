@@ -32,7 +32,7 @@ defineProps({
 
 </template>
 
-<style>
+<style scoped>
 .base {
   width: 600px;
   background-color: rgb(255, 207, 148);
@@ -40,20 +40,18 @@ defineProps({
   border-radius: 50px;
   
 }
-.cap-WhithBread {
+.cap-ToStart {
   width: auto;
   height: 90%;
   border: 3px thin black;
   padding: 40px 10px;
   color: transparent;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 1fr 1fr;
   border-radius: 50px;
   background: white;
-  
-  /* box-shadow: 0px 0px 10px rgb(0, 0, 0) inset,0px 0px 20px rgb(255, 48, 83)inset,0px 0px 40px rgb(255, 80, 109) inset,0px 0px 80px rgb(255, 122, 144) inset,0px 0px 60px rgb(255, 154, 171) inset;
-  background-color: black;
-  background-clip: text;
-  text-shadow: 0px 1.0px 1.0px rgba(209, 209, 209, 0.479),0px 0px 1px rgba(0, 0, 0, 0); */
+  color: black;
+
+  animation: fade-in-left 250ms ease-in-out;
 }
 </style>
