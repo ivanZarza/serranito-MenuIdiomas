@@ -172,6 +172,9 @@ td {
   }
 }
 
+span {
+  font-size: x-small;
+}
 .cap-footer{
 display: flex;
 flex-direction: column;
