@@ -72,20 +72,21 @@ const tabKeys = [
     </div>
 
     <div class="base-table">
-      <table class="table">
-        <tbody>
-          <tr v-for="{ name, price, price2 } in data" :key="name">
-            <td class="change">{{ name }}</td>
-            <td>{{ price }}</td>
-            <td>{{ price2 }}</td>
-          </tr>
-        </tbody>
-      </table>
+        <table class="table">
+          <tbody>
+            <tr v-for="{ name, price, price2 } in data" :key="name">
+              <td class="change">{{ name }}</td>
+              <td>{{ price }}</td>
+              <td>{{ price2 }}</td>
+            </tr>
+          </tbody>
+        </table>
     </div>  
   </div>
   <div class="cap-footer"> 
     <span>Prices include VAT</span>
     <span>Ask the waiter about allergens</span>
+    <span>We cannot guarantee that the dishes contain any trace of the allergens</span>
 </div> 
 </template>
 
@@ -94,11 +95,15 @@ const tabKeys = [
 
 .capsule {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 100px 2fr;
+  gap: 10px;
 }
 
 .cap-button {
   margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 button {
@@ -114,7 +119,7 @@ button {
   border-radius: 15px 15px 0 0;
   border: 0;
   transform: translateY(0);
-  transition: transform 400ms ease;
+  transition: width 250ms ease;
 }
 
 button:active {
@@ -126,33 +131,34 @@ button:active {
 button.current {
   color: var(--color-primary);
   background-color: #2e3191;
-  transform: translate(-10px);
+  width: calc(100% + 4px);
 }
 
 .base-table {
-  width: 500px;
+  width: 100%;
+  height: auto;
   background-color: #2e3191;
   margin: 6px;
   border: 1px solid white;
   border-radius: 50px;
 }
+
+
 .table {
   width: 100%;
   height: 100%;
-  padding: px 20px;
+  padding: 20px;
   color: transparent;
   display: grid;
   grid-template-columns: 9fr 1fr 1fr;
   border-radius: 50px;
-  background: white;
   color: black;
   animation: fade-in-left  normal 1s ease-out;
-  padding: 0px 20px;
   background: rgb(255,255,255);
   background: radial-gradient(circle, rgba(255,255,255,1) 75%, rgb(211, 211, 211) 100%);
   background-size: 50px 50px ;
   background-repeat: repeat;
-  text-shadow: 0px 0px 6px white;
+  text-shadow: 0px 0npm run devpx 6px white;
 }
 
 @keyframes fade-in-left {
