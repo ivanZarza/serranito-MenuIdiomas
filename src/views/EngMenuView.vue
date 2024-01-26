@@ -148,25 +148,27 @@ button.current {
   width: 100%;
   height: 100%;
   padding: 20px;
-  color: transparent;
   display: grid;
   grid-template-columns: 9fr 1fr 1fr;
   border-radius: 50px;
-  color: black;
-  animation: fade-in-left  normal 1s ease-out;
-  background: rgb(255,255,255);
-  background: radial-gradient(circle, rgba(255,255,255,1) 75%, rgb(211, 211, 211) 100%);
+  color: white;
+  background-image:url(../../public/wall_tile.svg) ;
   background-size: 50px 50px ;
   background-repeat: repeat;
-  text-shadow: 0px 0npm run devpx 6px white;
+}
+
+td {
+  animation: fade-in-left  normal 1s ease-out;
 }
 
 @keyframes fade-in-left {
   from {
-    transform: translateX(-39px)
+    transform: translateX(-39px);
+    opacity: 0;
   }
   to {
-    transform: translateX(-2px)
+    transform: translateX(-2px);
+    opacity: 1;
   }
 }
 

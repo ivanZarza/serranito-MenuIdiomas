@@ -14,7 +14,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
   <div class="fondo">
       <nav>
-        <RouterLink to="/english">English</RouterLink>
+        <RouterLink to="/english"><v-icon name="fi-gb"/></RouterLink>
       </nav>
   <RouterView />
 </div>
@@ -32,18 +32,19 @@ import { RouterLink, RouterView } from 'vue-router'
 .wrapper-svg {
   background-color: white;
   width: 100%;
-  border-radius: 0% 20% 20% 0%;
+  border-bottom: 8px solid var(--color-primary);
+  border-radius: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: fade-in-down 1s ease;
 }
 
 
   .svg {
   width: 60%;
   background-color: white;
-  animation: fade-in-down 1s ease-in-out;
-  border-radius: 20%;
+
 }
 
 
@@ -54,4 +55,5 @@ import { RouterLink, RouterView } from 'vue-router'
   to {
   }  
 }
+
 </style>
