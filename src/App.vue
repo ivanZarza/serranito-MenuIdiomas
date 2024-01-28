@@ -25,15 +25,15 @@ import { RouterLink, RouterView } from 'vue-router'
 .base {
   width: 100%;
   background-color: var(--color-primary);
-  border-radius: 20%;
+  border-radius: 40%;
   border: none;
 }
 
 .wrapper-svg {
   background-color: white;
   width: 100%;
-  border-bottom: 8px solid var(--color-primary);
-  border-radius: 20%;
+  border-bottom: 10px solid var(--color-primary);
+  border-radius: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,14 +43,14 @@ import { RouterLink, RouterView } from 'vue-router'
 
   .svg {
   width: 60%;
-  background-color: white;
-
+  background-color: transparent;
+  position: calc(-10px);
 }
 
 
 @keyframes fade-in-down {
   from {
-    transform: translatey(-50px);
+    transform: translatey(-70px);
   }
   to {
   }  
