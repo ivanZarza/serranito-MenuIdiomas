@@ -90,11 +90,6 @@ const tabKeys = [
 
 <style scoped >
 
-.capsule {
-  display: grid;
-  grid-template-columns: 100px 2fr;
-  gap: 10px;
-}
 
 .cap-button {
   margin-top: 10px;
@@ -154,7 +149,6 @@ button.current {
 }
 
 td {
-  padding: 0 8px;
   animation: fade-in-left  normal 1s ease-out;
 }
 
