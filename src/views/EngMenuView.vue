@@ -58,19 +58,6 @@ const tabKeys = [
 </script>
 
 <template>
-  <div class="capsule">  
-    <div class="cap-button">
-      <button
-        v-for="key in tabKeys"
-        class="fondo"
-        :class="{ current: currentTab == key }"
-        @click="change(key)"
-      >
-        {{ tabLabels[key] }}
-        <!-- {{ $t(`tabsLabels.${key}`) }} -->
-      </button >
-    </div>
-
     <div class="base-table">
         <table class="table">
           <tbody>
@@ -82,8 +69,18 @@ const tabKeys = [
           </tbody>
         </table>
     </div>  
-  </div>
-  <div class="cap-footer"> 
+    <div class="cap-button">
+      <button
+        v-for="key in tabKeys"
+        class="fondo"
+        :class="{ current: currentTab == key }"
+        @click="change(key)"
+      >
+        {{ tabLabels[key] }}
+        <!-- {{ $t(`tabsLabels.${key}`) }} -->
+      </button >
+  <div class="cap-footer">
+    </div>
     <span>Prices include VAT</span>
     <span>Ask the waiter about allergens</span>
     <span>We cannot guarantee that the dishes contain any trace of the allergens</span>
@@ -148,8 +145,6 @@ button.current {
   width: 100%;
   height: 100%;
   padding: 20px;
-  display: grid;
-  grid-template-columns: 9fr 1fr 1fr;
   border-radius: 50px;
   color: white;
   background-image:url(../../public/wall_tile.svg) ;
@@ -159,6 +154,7 @@ button.current {
 }
 
 td {
+  padding: 0 8px;
   animation: fade-in-left  normal 1s ease-out;
 }
 
