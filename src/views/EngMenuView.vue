@@ -155,6 +155,7 @@ button.current {
   background-image:url(../../public/wall_tile.svg) ;
   background-size: 50px 50px ;
   background-repeat: repeat;
+  font-size: 12px;
 }
 
 td {
