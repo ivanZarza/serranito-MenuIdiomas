@@ -92,12 +92,16 @@ const tabKeys = [
 
 
 .cap-button {
-  margin-top: 10px;
-  margin-right:3px ;
+  /*margin-top: 10px;
+  margin-right:3px ;*/
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   align-items: center;
   gap: 2px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 4px;
 }
 
 button {
@@ -132,7 +136,6 @@ button.current {
   width: 100%;
   height: auto;
   background-color: #2e3191;
-  margin: 6px;
   border: 1px solid white;
   border-radius: 50px;
 }
