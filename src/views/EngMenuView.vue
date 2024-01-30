@@ -93,9 +93,11 @@ const tabKeys = [
 
 .cap-button {
   margin-top: 10px;
-  display: flex;
-  flex-direction: row;
+  margin-right:3px ;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  gap: 2px;
 }
 
 button {
@@ -171,5 +173,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+text-align: center;
 }
 </style>
