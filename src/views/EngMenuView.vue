@@ -79,8 +79,8 @@ const tabKeys = [
         {{ tabLabels[key] }}
         <!-- {{ $t(`tabsLabels.${key}`) }} -->
       </button >
-  <div class="cap-footer">
     </div>
+  <div class="cap-footer">
     <span>Prices include VAT</span>
     <span>Ask the waiter about allergens</span>
     <span>We cannot guarantee that the dishes contain any trace of the allergens</span>
@@ -99,7 +99,7 @@ const tabKeys = [
 .cap-button {
   margin-top: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
