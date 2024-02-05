@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue'
-import { start,bread,stew,share,friet,sea,meat,special,adds } from '@/data/enMenu';
+import { start,bread,stew,share,friet,sea,meat,special,adds } from '@/data/deMenu';
 
 const dataSources = {
   start,bread,stew,share,friet,sea,meat,special,adds,
@@ -32,15 +32,15 @@ const change = (sectionName) => {
 // })
 
 const tabLabels = {
-  start: 'To start',
-  bread: 'Whith bread',
-  stew: 'Traditional stews',
-  share: 'To share',
-  friet: 'Sevillian fried food',
-  sea: 'From sea',
-  meat: 'From pasture',
-  special: 'House specialities',
-  adds: 'Mix accessories',
+  start: 'Beginnen',
+  bread: 'Mit Brot',
+  stew: 'Traditionelle Eintöpfe',
+  share: 'Aktie',
+  friet: 'Sevillanischer frittierter Fisch',
+  sea: 'Vom Meer',
+  meat: 'Der Weide',
+  special: 'Spezialitäten des Hauses',
+  adds: 'Mehrere',
 }
 
 const tabKeys = [
@@ -81,9 +81,9 @@ const tabKeys = [
       </button >
     </div>
   <div class="cap-footer">
-    <span>Prices include VAT</span>
-    <span>Ask the waiter about allergens</span>
-    <span>We cannot guarantee that the dishes contain any trace of the allergens</span>
+    <span>Die Preise verstehen sich inklusive Mehrwertsteuer</span>
+    <span>Fragen Sie den Kellner nach Allergenen</span>
+    <span>Wir können nicht garantieren, dass Spuren der angegebenen Allergene vorhanden sind</span>
 </div> 
 </template>
 
@@ -133,7 +133,7 @@ button.current {
   height: 50px;
 }
 
-  .base-table {
+.base-table {
   width: 100%;
   height: auto;
   min-height: 400px;
@@ -144,7 +144,6 @@ button.current {
   border: 1px solid white;
   border-radius: 50px;
 }
-
 
 .table {
   width: 100%;

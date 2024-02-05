@@ -1,71 +1,71 @@
 export const start = [
     {
-      Name: "Iberischer Schinken",
+      name: "Iberischer Schinken",
       price: "9.00",
       price2: "17.00",
     },
     {
-      Name: "Caña de Lomo",
+      name: "Caña de Lomo",
       price: "9.00",
       price2: "14.00",
     },
     {
-      Name: "Iberischer Salchichón",
+      name: "Iberischer Salchichón",
       price: "7.00",
       price2: "9.00",
     },
     {
-      Name: "Iberischer Morcilla",
+      name: "Iberischer Morcilla",
       price: "7.00",
       price2: "9.00",
     },
     {
-      Name: "Iberische Mischung",
+      name: "Iberische Mischung",
       price: "16.00",
       price2:"",
     },
     {
-      Name: "Alter Käse",
+      name: "Alter Käse",
       price: "8.00",
       price2: "13.50",
     },
     {
-      Name: "Huelva-Garnelen",
+      name: "Huelva-Garnelen",
       price: "13.50",
       price2:"",
     },
     {
-      Name: "Gemischter Salat",
+      name: "Gemischter Salat",
       price: "10.00",
       price2:"",
     },
     {
-      Name: "Hühnersalat",
+      name: "Hühnersalat",
       price: "10.00",
       price2:"",
     },
     {
-      Name: "Meeresfrüchtebombe",
+      name: "Meeresfrüchtebombe",
       price: "10.00",
       price2:"",
     },
     {
-      Name: "Salat",
+      name: "Salat",
       price: "10.00",
       price2:"",
     },
     {
-      Name: "Salmorejo Cordoban",
+      name: "Salmorejo Cordoban",
       price: "6.00",
       price2:"",
     },
     {
-      Name: "Kartoffel gewürzt mit Melva",
+      name: "Kartoffel gewürzt mit Melva",
       price: "5.50",
       price2:"",
     },
     {
-      Name: "Ziegenkäse-Blätterteig mit Honig und knusprigen Zwiebeln",
+      name: "Ziegenkäse-Blätterteig mit Honig und knusprigen Zwiebeln",
       price: "9.00",
       price2:"",
     },
@@ -73,17 +73,17 @@ export const start = [
 
   export const bread = [
     {
-      Name: "Haustoast (Iberischer Schinken und Salmorejo)",
+      name: "Haustoast (Iberischer Schinken und Salmorejo)",
       price: "10.00",
       price2: "",
     },
     {
-      Name: "Geschreddertes Rindfleisch und Salmorejo-Toast",
+      name: "Geschreddertes Rindfleisch und Salmorejo-Toast",
       price: "10.00",
       price2: "",
     },
     {
-      Name: "Toast mit geräucherten Sardinen",
+      name: "Toast mit geräucherten Sardinen",
       price: "10.00",
       price2:"",
     },
@@ -91,15 +91,15 @@ export const start = [
 
   export const stew = [
     {
-      Name: "Bullenschwanz",
+      name: "Bullenschwanz",
       price: "12.00",
       price2: "",
     }, {
-      Name: "Schweinbacke",
+      name: "Schweinbacke",
       price: "10.00",
       price2:"",
     }, {
-      Name: "Sevillaner Spinat mit Kichererbsen",
+      name: "Sevillaner Spinat mit Kichererbsen",
       price: "9.00",
       price2:"",
     }
@@ -107,55 +107,55 @@ export const start = [
 
   export const share = [ 
     {
-      Name: "Hausgemachtes Rührei (Pilze, Spargel, Schinken)",
+      name: "Hausgemachtes Rührei (Pilze, Spargel, Schinken)",
       price: "11.00",
       price2: "",
     }, {
-      Name: "Rührei mit Kabeljau und Kartoffeln",
+      name: "Rührei mit Kabeljau und Kartoffeln",
       price: "11.00",
       price2:"",
     }, {
-      Name: "Iberisches Rührei",
+      name: "Iberisches Rührei",
       price: "11.00",
       price2:"",
     }, {
-      Name: "Schinken- oder Puchero-Kroketten",
+      name: "Schinken- oder Puchero-Kroketten",
       price: "9.00",
       price2:"",
     }, {
-      Name: "Spinatkroketten",
+      name: "Spinatkroketten",
       price: "9.00",
       price2:"",
     }, {
-      Name: "Gebratene Auberginen mit Zuckerrohrhonig",
+      name: "Gebratene Auberginen mit Zuckerrohrhonig",
       price: "8.00",
       price2:"",
     }, {
-      Name: "Gegrilltes Gemüse",
+      name: "Gegrilltes Gemüse",
       price: "10.00",
       price2:"",
     }, {
-      Name: "Chicken Tears",
+      name: "Chicken Tears",
       price: "9.00",
       price2:"",
     }, {
-      Name: "Gegrillter Oktopus",
+      name: "Gegrillter Oktopus",
       price: "19.00",
       price2:"",
     }, {
-      Name: "Patatas Arrieras (Kartoffeln, Garnelen, Ali-oli)",
+      name: "Patatas Arrieras (Kartoffeln, Garnelen, Ali-oli)",
       price: "13.00",
       price2:"",
     }, {
-      Name: "Garnelen mit Knoblauch",
+      name: "Garnelen mit Knoblauch",
       price: "11.00",
       price2:"",
     }, {
-      Name: "Tomate gewürzt mit Ziegenkäse und Balasamico",
+      name: "Tomate gewürzt mit Ziegenkäse und Balasamico",
       price: "8.00",
       price2:"",
     },{
-      Name: "Tomate mit Melva",
+      name: "Tomate mit Melva",
       price: "8.00",
       price2:"",
     },
@@ -163,36 +163,36 @@ export const start = [
 
   export const friet = [
     {
-      Name: "Sepia",
+      name: "Sepia",
       price: "9.00",
       price2:"",
     }, {
-      Name: 
+      name: 
    "Marinierter Dornhai",
       price: "9.00",
       price2:"",
     }, {
-      Name: "Sardellen",
+      name: "Sardellen",
       price: "9.00",
       price2:"",
     }, {
-      Name: "Kabeljau",
+      name: "Kabeljau",
       price: "10.00",
       price2:"",
     }, {
-      Name: "Tintenfischspitzen",
+      name: "Tintenfischspitzen",
       price: "8.00",
       price2:"",
     }, {
-      Name: "Kleiner Weißköder mit Pfeffer und Ei",
+      name: "Kleiner Weißköder mit Pfeffer und Ei",
       price: "11.00",
       price2:"",
     }, {
-      Name: "Garnelenomelett",
+      name: "Garnelenomelett",
       price: "8.50",
       price2:"",
     }, {
-      Name: "Verschiedene frittierte Fische",
+      name: "Verschiedene frittierte Fische",
       price: "19.00",
       price2:"",
     },
@@ -200,27 +200,27 @@ export const start = [
 
   export const sea =[
     {
-      Name: "Gegrillter Tintenfisch",
+      name: "Gegrillter Tintenfisch",
       price: "9.00",
       price2:"",
     }, {
-      Name: "Gegrillter Sepia",
+      name: "Gegrillter Sepia",
       price: "3.50/100gr",
       price2:"",
     }, {
-      Name: "Wolfsbarsch auf Lende mit Beilage",
+      name: "Wolfsbarsch auf Lende mit Beilage",
       price: "14.00",
       price2:"",
     }, {
-      Name: "Verschiedene gegrillte Fische",
+      name: "Verschiedene gegrillte Fische",
       price: "30.00",
       price2:"",
     }, {
-      Name: "Coquinas",
+      name: "Coquinas",
       price: "14.00",
       price2:"",
     }, {
-      Name: "Thunfischbauch",
+      name: "Thunfischbauch",
       price: "18.00",
       price2:"",
     },
@@ -228,27 +228,27 @@ export const start = [
 
   export const meat = [
     {
-      Name: "Fleischgrill",
+      name: "Fleischgrill",
       price: "23.00",
       price2:"",
     }, {
-      Name: "Rinderentrecôte",
+      name: "Rinderentrecôte",
       price: "18.00",
       price2:"",
     }, {
-      Name: "Geheimnis des gegrillten iberischen Schweinefleischs",
+      name: "Geheimnis des gegrillten iberischen Schweinefleischs",
       price: "11.00",
       price2:"",
     }, {
-      Name: "Schweinefeder mit iberischem Schinken",
+      name: "Schweinefeder mit iberischem Schinken",
       price: "16.00",
       price2:"",
     }, {
-      Name: "Schweinefiletspitze mit Whiskysauce",
+      name: "Schweinefiletspitze mit Whiskysauce",
       price: "10.50",
       price2:"",
     }, {
-      Name: "Schweinefiletspitze mit Roquefort-Sauce",
+      name: "Schweinefiletspitze mit Roquefort-Sauce",
       price: "10.50",
       price2:"",
     }, {
@@ -256,11 +256,11 @@ export const start = [
       price: "10.00",
       price2:"",
     }, {
-      Name: "großes gereiftes Kalbskotelett",
+      name: "großes gereiftes Kalbskotelett",
       price: "50.00/kg",
       price2:"",
     }, {
-      Name: "Hähnchenbrust",
+      name: "Hähnchenbrust",
       price: "10.00",
       price2:"",
     },
@@ -268,31 +268,31 @@ export const start = [
   
   export const special = [
     {
-      Name: "Serranito Especial (Lendenstück, Käse, Tortilla und iberischer Schinken)",
+      name: "Serranito Especial (Lendenstück, Käse, Tortilla und iberischer Schinken)",
       price: "10.00",
       price2:"",
     }, {
-      Name: "Serranito Especial de pollo (Huhn, Tortillakäse und iberischer Schinken)",
+      name: "Serranito Especial de pollo (Huhn, Tortillakäse und iberischer Schinken)",
       price: "10.00",
       price2:"",
     }, {
-      Name: "San Jacobo Serrano maxi (Lende, Schinken und Käse)",
+      name: "San Jacobo Serrano maxi (Lende, Schinken und Käse)",
       price: "10.00",
       price2:"",
     }, {
-      Name: "San Jacob de pollo (Schinken, Käse und Huhn)",
+      name: "San Jacob de pollo (Schinken, Käse und Huhn)",
       price: "6.50",
       price2:"",
     }, {
-      Name: "Extra Beef Burger 200g, Speck und Käse",
+      name: "Extra Beef Burger 200g, Speck und Käse",
       price: "10.00",
       price2:"",
     }, {
-      Name: "Zerbrochene Eier mit Schinken",
+      name: "Zerbrochene Eier mit Schinken",
       price: "11.00",
       price2:"",
     }, {
-      Name: "Paella des Tages",
+      name: "Paella des Tages",
       price: "9.00",
       price2:"",
     },
@@ -300,19 +300,19 @@ export const start = [
 
   export const adds = [
     {
-      Name: "Brot und Picks",
+      name: "Brot und Picks",
       price: "1.00",
       price2:"",
     }, {
-      Name: "Oliven",
+      name: "Oliven",
       price: "2.00",
       price2:"",
     }, {
-      Name: "Verschiedene Soßen",
+      name: "Verschiedene Soßen",
       price: "0.80",
       price2:"",
     }, {
-      Name: "Mayonnaise oder Ketchup",
+      name: "Mayonnaise oder Ketchup",
       price: "0.20",
       price2:"",
     },

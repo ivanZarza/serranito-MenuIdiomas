@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue'
-import { start,bread,stew,share,friet,sea,meat,special,adds } from '@/data/enMenu';
+import { start,bread,stew,share,friet,sea,meat,special,adds } from '@/data/esMenu';
 
 const dataSources = {
   start,bread,stew,share,friet,sea,meat,special,adds,
@@ -32,15 +32,15 @@ const change = (sectionName) => {
 // })
 
 const tabLabels = {
-  start: 'To start',
-  bread: 'Whith bread',
-  stew: 'Traditional stews',
-  share: 'To share',
-  friet: 'Sevillian fried food',
-  sea: 'From sea',
-  meat: 'From pasture',
-  special: 'House specialities',
-  adds: 'Mix accessories',
+  start: 'Para comenzar',
+  bread: 'Nuestros panes',
+  stew: 'Guisos caseros con tradición',
+  share: 'Algo para compartir',
+  friet: 'Frituras sevillana',
+  sea: 'Del mar',
+  meat: 'De la dehesa',
+  special: 'Especialidades de la casa',
+  adds: 'Varios',
 }
 
 const tabKeys = [
@@ -81,9 +81,9 @@ const tabKeys = [
       </button >
     </div>
   <div class="cap-footer">
-    <span>Prices include VAT</span>
-    <span>Ask the waiter about allergens</span>
-    <span>We cannot guarantee that the dishes contain any trace of the allergens</span>
+    <span>Los precios incluyen IVA</span>
+    <span>Pregunte al camarero por los alergenos</span>
+    <span>No podemos garantizar la presencia de trazas de cualquiera de los alergenos indicados</span>
 </div> 
 </template>
 
@@ -117,7 +117,7 @@ button {
   border-radius: 15px 15px 0 0;
   border: 0;
   transform: translateY(0);
-  transition: width 250ms ease;
+  transition: height 500ms ease;
 }
 
 button:active {
@@ -133,7 +133,7 @@ button.current {
   height: 50px;
 }
 
-  .base-table {
+.base-table {
   width: 100%;
   height: auto;
   min-height: 400px;
@@ -153,6 +153,9 @@ button.current {
   border-radius: 50px;
   color: white;
   font-size: 12px;
+  background-image:url(../../public/wall_tile.svg);
+  background-size: 50px 50px ;
+  background-repeat: repeat;
 }
 
 td {

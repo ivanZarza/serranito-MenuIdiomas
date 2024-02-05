@@ -15,6 +15,9 @@ import { RouterLink, RouterView } from 'vue-router'
   <div class="fondo">
       <nav>
         <RouterLink to="/english"><v-icon name="fi-gb"/></RouterLink>
+        <RouterLink to="/français"><v-icon name="fi-bl"/></RouterLink>
+        <RouterLink to="/deutsch"><v-icon name="fi-de"/></RouterLink>
+        <RouterLink to="/español"><v-icon name="fi-ea"/></RouterLink>
       </nav>
   <RouterView />
 </div>
@@ -44,9 +47,7 @@ import { RouterLink, RouterView } from 'vue-router'
   .svg {
   width: 60%;
   background-color: white;
-
 }
-
 
 @keyframes fade-in-down {
   from {
@@ -54,6 +55,14 @@ import { RouterLink, RouterView } from 'vue-router'
   }
   to {
   }  
+}
+
+.fondo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: ;: 100vh;
 }
 
 </style>

@@ -13,6 +13,21 @@ const router = createRouter({
       path: '/english',
       name: 'english',
       component: () => import('../views/EngMenuView.vue')
+    },
+    {
+      path: '/français',
+      name: 'français',
+      component: () => import('../views/FreMenuView.vue')
+    },
+    {
+      path: '/deutsch',
+      name: 'deutsch',
+      component: () => import('../views/DesMenuView.vue')
+    },
+    {
+      path: '/español',
+      name: 'español',
+      component: () => import('../views/EspMenuView.vue')
     }
   ]
 })
