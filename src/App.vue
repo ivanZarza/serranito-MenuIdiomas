@@ -16,7 +16,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <nav>
         <RouterLink to="/english"><v-icon name="fi-gb"/></RouterLink>
         <RouterLink to="/français"><v-icon name="fi-bl"/></RouterLink>
-        <RouterLink to="/deutsch"><v-icon name="fi-de"/></RouterLink>
+        <RouterLink to="/deutsch"><v-icon name="fi-square-de"/></RouterLink>
         <RouterLink to="/español"><v-icon name="fi-ea"/></RouterLink>
       </nav>
   <RouterView />
