@@ -6,7 +6,7 @@ import vue from '@vitejs/plugin-vue'
 import path from "path"
 
 const {
-  PUBLIC_DIR = 'docs',
+  PUBLIC_DIR = 'dist',
 } = process.env
 
 // https://vitejs.dev/config/
