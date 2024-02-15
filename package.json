@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host=0.0.0.0",
-    "build_github": "vite build --base=/serranito-MenuIdiomas/ && cp docs/index.html docs/404.html",
-    "build_netlify": "PUBLIC_DIR=netlify vite build && cp ${PUBLIC_DIR}/index.html ${PUBLIC_DIR}/404.html",
+    "build_github": "PUBLIC_DIR=docs vite build --base=/serranito-MenuIdiomas/ && cp ${PUBLIC_DIR}/index.html ${PUBLIC_DIR}/404.html",
+    "build": "PUBLIC_DIR=dist vite build && cp ${PUBLIC_DIR}/index.html ${PUBLIC_DIR}/404.html",
     "preview": "vite preview"
   },
   "dependencies": {
