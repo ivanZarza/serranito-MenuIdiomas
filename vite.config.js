@@ -7,6 +7,7 @@ import path from "path"
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  publicPath: process.env.PUBLIC_HTML || '/',
   plugins: [
     vue(),
   ],
