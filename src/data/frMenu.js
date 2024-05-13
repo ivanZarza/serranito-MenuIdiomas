@@ -12,26 +12,26 @@ export const start =[
     {
       name : "Saucisse ibérique ",
       price : "7.00",
-      price2: "9.00",
+      price2: "9.50",
     },
     {
       name : "Boudin ibérique ",
       price : "7.00",
-      price2: "9.00",
-    },
-    {
-      name : "Assortiment Ibérique ",
-      price : "16.00",
-      price2:"",
+      price2: "9.50",
     },
     {
       name : "Vieux Fromage ",
-      price : "8.00",
-      price2 : "13.50",
+      price : "9.00",
+      price2 : "14.50",
     },
     {
-      name : "Crevettes de uelva ",
-      price : "13.50",
+      name : "Assortiment Ibérique ",
+      price : "17.00",
+      price2:"",
+    },
+    {
+      name : "Crevettes de Huelva ",
+      price : "13.00",
       price2:"",
     },
     {
@@ -40,7 +40,7 @@ export const start =[
       price2:"",
     },
     {
-      name : "Salade de poulet",
+      name : "Salade César ",
       price : "10.00",
       price2:"",
     },
@@ -50,23 +50,28 @@ export const start =[
       price2:"",
     },
     {
-      name : "Salade russe",
-      price : "10,00",
-      price2:"",
-    },
-    {
-      name : "Salmorejo de Cordoue",
-      price : "6,00",
+      name : "Ensaladilla ",
+      price : "7.50",
       price2:"",
     },
     {
       name : "Pomme de terre assaisonnée au Melva ",
+      price : "7,50",
+      price2:"",
+    },
+    {
+      name : "Salmorejo de Cordoue",
       price : "5,50",
       price2:"",
     },
     {
-      name : "Feuilleté de C.èvre au Miel et Oignon Croustillant ",
-      price : "9.00",
+      name : "Tomate assaisonnée au fromage de chèvre et vinaigre balasamique",
+      price : "8,00",
+      price2:"",
+    },
+    {
+      name: "Tomate assaisonnée au Melva",
+      price : "8,00",
       price2:"",
     },
   ]
@@ -74,11 +79,6 @@ export const start =[
   export const bread = [
     {
       name: "Toasts de la Maison (Jambon Ibérique et Salmorejo)",
-      price : "10,00",
-      price2 : "",
-    },
-    {
-      name: "Bœuf râpé et pain grillé Salmorejo",
       price : "10,00",
       price2 : "",
     },
@@ -92,14 +92,16 @@ export const start =[
   export const stew = [
     {
       name: "Queue de taureau",
-      price : "12.00",
+      price : "13.00",
       price2 : "",
-    }, {
+    }, 
+    {
       name : "Joue de Porc",
-      price : "10,00",
+      price : "11,00",
       price2:"",
-    }, {
-      name: "Épinards sévillans aux pois c.ic.es",
+    }, 
+    {
+      name: "Épinards sévillans aux pois chiches",
       price : "9.00",
       price2:"",
     }
@@ -107,7 +109,7 @@ export const start =[
 
   export const share = [
     {
-      name : "Œufs brouillés maison (c.ampignons, asperges, jambon)",
+      name : "Œufs brouillés maison (champignons, asperges, jambon)",
       price : "11.00",
       price2 : "",
     }, 
@@ -117,27 +119,18 @@ export const start =[
       price2:"",
     }, 
     {
-      name : "Œufs brouillés ibériques",
-      price : "11.00",
-      price2:"",
-    }, 
-    {
-      name : "Croquettes aux Jambon ou Puc.ero",
+      name : "Croquettes aux Jambon ou Puchero",
       price : "9.00",
       price2:"",
     }, 
     {
-      name: "Croquettes aux épinards",
+      name: "Croquettes aux saisons",
       price : "9.00",
       price2:"",
     }, 
     {
-      name : "Aubergines frites au c.éri aux canne",
+      name : "Aubergines frites au chéri aux canne",
       price : "8,00",
-      price2:"",
-    }, {
-      name : "Légumes grillés",
-      price : "10,00",
       price2:"",
     }, 
     {
@@ -146,8 +139,8 @@ export const start =[
       price2:"",
     }, 
     {
-      name : "Poulpe Grillé",
-      price : "19.00",
+      name : "Légumes grillés",
+      price : "10,00",
       price2:"",
     }, 
     {
@@ -161,13 +154,8 @@ export const start =[
       price2:"",
     }, 
     {
-      name : "Tomate assaisonnée au c.èvre et balasamique",
-      price : "8,00",
-      price2:"",
-    },
-    {
-      name: "Tomate au Melva",
-      price : "8,00",
+      name : "Feuilleté croustillant au chèvre, au miel et à l'oignon croustillant",
+      price : "9.00",
       price2:"",
     },
   ]
@@ -175,16 +163,16 @@ export const start =[
   export const friet = [
     {
       name : "Sépia",
-      price : "9.00",
+      price : "10.00",
       price2:"",
     }, 
     {
       name : "Aiguillat mariné",
-      price : "9.00",
+      price : "9.50",
       price2:"",
     }, {
       name : "Anchois",
-      price : "9.00",
+      price : "9.50",
       price2:"",
     }, 
     {
@@ -193,8 +181,8 @@ export const start =[
       price2:"",
     }, 
     {
-      name: "Conseils de calmar",
-      price : "8,00",
+      name: "Bébé calmar",
+      price : "9,50",
       price2:"",
     },
     {
@@ -204,12 +192,12 @@ export const start =[
     }, 
     {
       name : "Omelette aux crevettes",
-      price : "8,50",
+      price : "9,50",
       price2:"",
     }, 
     {
       name : "Friture mixte",
-      price : "19.00",
+      price : "19.50",
       price2:"",
     }
   ]
@@ -217,7 +205,7 @@ export const start =[
   export const sea = [
     {
       name : "Petits calamars grillés",
-      price : "9.00",
+      price : "10.50",
       price2:"",
     }, 
     {
@@ -227,45 +215,50 @@ export const start =[
     }, 
     {
       name : "Basse sur le dos avec garniture",
-      price : "14.00",
+      price : "15.00",
       price2:"",
     }, 
     {
       name : "Poisson Grillé",
-      price : "30,00",
+      price : "31,00",
       price2:"",
     }, 
     {
-      name: "Coquinas",
-      price : "14.00",
+      name: "Palourdes",
+      price : "15.00",
       price2:"",
     }, 
     {
-      name : "Ventre de t.on",
+      name : "Ventre de thon",
       price : "18.00",
       price2:"",
     },
+    {
+      name : "Poulpe Grillé",
+      price : "19.00",
+      price2:"",
+    }, 
   ]
 
   export const meat = [
     {
       name : "Barbecue à viande",
-      price : "23.00",
+      price : "24.90",
       price2:"",
     }, 
     {
       name : " Entrecôte de Bœuf ",
-      price : "18.00",
+      price : "20.00",
       price2:"",
     }, 
     {
       name: "Secret du porc ibérique grillé",
-      price : "11.00",
+      price : "11.50",
       price2:"",
     }, 
     {
       name: "Plume de porc au jambon ibérique",
-      price : "16.00",
+      price : "17.00",
       price2:"",
     }, 
     {
@@ -280,12 +273,12 @@ export const start =[
     }, 
     {
       name: "Steak de porc ibérique grillé",
-      price : "10,00",
+      price : "11,00",
       price2:"",
     }, 
     {
       name : " Grosse côtelette de bœuf maturée ",
-      price : "50,00/kg",
+      price : "55,00/kg",
       price2:"",
     }, 
     {
@@ -297,13 +290,13 @@ export const start =[
 
   export const special = [
     {
-      name: "Serranito Especial (Pointe de surlonge de porc, fromage, tortilla et jambon ibérique)",
-      price : "10,00",
+      name: "Serranito spécial porc (Pointe de surlonge de porc, fromage, ommelette et jambon ibérique)",
+      price : "10,50",
       price2:"",
     }, 
     {
-      name: "Spécial Serranito de pollo (Poulet, tortilla et jambon ibérique)",
-      price : "10,00",
+      name: "Serranito spécial poulet (Poulet, ommelette et jambon ibérique)",
+      price : "10,50",
       price2:"",
     }, 
     {
@@ -312,13 +305,8 @@ export const start =[
       price2:"",
     }, 
     {
-      name: "San Jacob de pollo (poulet, jambon et fromage)",
-      price : "6,50",
-      price2:"",
-    }, 
-    {
       name : "Burger de bœuf extra 200gr., bacon et fromage",
-      price : "10,00",
+      price : "11,00",
       price2:"",
     }, 
     {
@@ -328,8 +316,8 @@ export const start =[
     }, 
     {
       name : "Paella du jour",
-      price : "9.00",
-      price2:"",
+      price : "10.00",
+      price2:"19.50",
     },
   ]
   
