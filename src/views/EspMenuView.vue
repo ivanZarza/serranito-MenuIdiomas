@@ -153,9 +153,6 @@ button.current {
   border-radius: 50px;
   color: white;
   font-size: 12px;
-  background-image:url(../../public/wall_tile.svg);
-  background-size: 50px 50px ;
-  background-repeat: repeat;
 }
 
 td {

@@ -10,28 +10,28 @@ export const start = [
       price2:"14.00",
     },
     {
-      name: "Sausage Iberico",
+      name: "Iberian Salchichón",
       price: "7.00",
-      price2:"9.00",
+      price2:"9.50",
     },
     {
       name: "Iberian blood sausage",
       price: "7.00",
-      price2:"9.00",
+      price2:"9.50",
+    },    
+    {
+      name: "Old Cheese",
+      price: "9.00",
+      price2:"14.50",
     },
     {
       name: "Iberian Assortment",
-      price: "16.00",
+      price: "17.00",
       price2:"",
     },
     {
-      name: "Old Cheese",
-      price: "8.00",
-      price2:"13.50",
-    },
-    {
-      name: "Prawns from Huelva",
-      price: "13.50",
+      name: "Shirmp from Huelva",
+      price: "13.00",
       price2:"",
     },
     {
@@ -40,7 +40,7 @@ export const start = [
       price2:"",
     },
     {
-      name: "Chicken Salad",
+      name: "Cesar Salad",
       price: "10.00",
       price2:"",
     },
@@ -50,23 +50,28 @@ export const start = [
       price2:"",
     },
     {
-      name: "Russian salad",
-      price: "10.00",
-      price2:"",
-    },
-    {
-      name: "Salmorejo cordoban",
-      price: "6.00",
+      name: "Ensaladilla",
+      price: "7.50",
       price2:"",
     },
     {
       name: "Potato seasoned with Melva",
-      price: "5.50",
+      price: "7.50",
       price2:"",
     },
     {
-      name: "Goat Cheese Puff Pastry with Honey and Crispy Onion",
-      price: "9.00",
+      name: "Cordoban Salmorejo",
+      price: "5.50",
+      price2:"",
+    }, 
+    {
+      name: "Tomato seasoned with goat cheese rind and Balasamic Vinegar dressing",
+      price: "8.00",
+      price2:"",
+    },
+    {
+      name: "Tomato seasoned with Melva",
+      price: "8.00",
       price2:"",
     },
 ]
@@ -74,11 +79,6 @@ export const start = [
 export const bread = [
     {
       name: "House Toast (Iberian Ham and Salmorejo)",
-      price: "10.00",
-      price2: "",
-    },
-    {
-      name: "Shredded Beef and Salmorejo Toast",
       price: "10.00",
       price2: "",
     },
@@ -92,13 +92,15 @@ export const bread = [
 export const stew = [
   {
     name: "Bull's Tail",
-    price: "12.00",
+    price: "13.00",
     price2: "",
-  }, {
+  }, 
+  {
     name: "Pork Cheek",
-    price: "10.00",
+    price: "11.00",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Sevillian spinach with chickpeas",
     price: "9.00",
     price2:"",
@@ -107,92 +109,96 @@ export const stew = [
 
 export const share =[
   {
-    name: "House scrambled eggs (mushroom, asparagus, ham)",
+    name: "House scrambled eggs (Mushroom, Asparagus, Ham)",
     price: "11.00",
     price2: "",
-  }, {
+  }, 
+  {
     name: "Scrambled eggs with cod and potato",
     price: "11.00",
     price2:"",
-  }, {
-    name: "Iberian scrambled eggs",
-    price: "11.00",
-    price2:"",
-  }, {
+  }, 
+  {
     name: "Ham or Puchero Croquettes",
     price: "9.00",
     price2:"",
-  }, {
-    name: "Spinach Croquettes",
+  }, 
+  {
+    name: "Season Croquettes",
     price: "9.00",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Fried eggplants with cane honey",
     price: "8.00",
     price2:"",
-  }, {
-    name: "Grilled vegetables",
-    price: "10.00",
-    price2:"",
-  }, {
+  }, 
+  {
     name: "Chicken Tears",
     price: "9.00",
     price2:"",
-  }, {
-    name: "Grilled Octopus",
-    price: "19.00",
+  },
+  {
+    name: "Grilled vegetables",
+    price: "10.00",
     price2:"",
-  }, {
+  },  
+  {
     name: "Patatas Arrieras (Potatoes, Prawns, Ali-oli)",
     price: "13.00",
     price2:"",
-  }, {
-    name: "Prawns with Garlic",
+  }, 
+  {
+    name: "Garlic Prawns",
     price: "11.00",
     price2:"",
-  }, {
-    name: "Tomato seasoned with goat cheese and balasamic",
-    price: "8.00",
-    price2:"",
-  },{
-    name: "Tomato seasoned with Melva",
-    price: "8.00",
+  },    
+  {
+    name: "Crispy Goat's Cheese puff pastry with Honey and Crispy Onion",
+    price: "9.00",
     price2:"",
   },
 ]
 
 export const friet = [
   {
-    name: "Cuttlefish",
-    price: "9.00",
+    name: "Sliced Cuttlefish",
+    price: "10.00",
     price2:"",
-  }, {
-    name: "Dopefish in marinade",
-    price: "9.00",
+  }, 
+  {
+    name: "Dogfish marinade",
+    price: "9.50",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Anchovies",
-    price: "9.00",
+    price: "9.50",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Cod",
     price: "10.00",
     price2:"",
-  }, {
-    name: "Squid Tips",
-    price: "8.00",
+  }, 
+  {
+    name: "Puntillitas(baby squid)",
+    price: "9.50",
     price2:"",
-  }, {
-    name: "Small whitebait with pepper and egg",
+  }, 
+  {
+    name: "Chanquetes (Whitebait) with pepper and egg",
     price: "11.00",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Shrimp omelet",
-    price: "8.50",
+    price: "9.50",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Mixed frying",
-    price: "19.00",
+    price: "19.50",
     price2:"",
   },
 ]
@@ -200,66 +206,84 @@ export const friet = [
 
 export const sea =[
   {
-    name: "Small grilled squid",
-    price: "9.00",
+    name: "Grilled squid",
+    price: "10.50",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Grilled Cuttlefish",
     price: "3.50/100gr",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Sea bass on the back with garnish",
-    price: "14.00",
+    price: "15.00",
     price2:"",
-  }, {
-    name: "Fish Grill",
-    price: "30.00",
+  }, 
+  {
+    name: "Fish Grill assortment",
+    price: "31.00",
     price2:"",
-  }, {
-    name: "Coquinas",
-    price: "14.00",
+  }, 
+  {
+    name: "Clams",
+    price: "15.00",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Tuna belly",
     price: "18.00",
     price2:"",
   },
+  {
+    name: "Grilled Octopus",
+    price: "19.00",
+    price2:"",
+  }, 
 ]
 
 export const meat = [
   {
-    name: "Meat barbecue",
-    price: "23.00",
+    name: "Meat Grill assortment (2 pax)",
+    price: "24.90",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Beef Entrecote",
-    price: "18.00",
+    price: "20.00",
     price2:"",
-  }, {
-    name: "Secret of Grilled Iberian Pork",
-    price: "11.00",
+  }, 
+  {
+    name: "Grilled Iberian Secret (Iberian pork)",
+    price: "11.50",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Pork feather with Iberian ham",
-    price: "16.00",
+    price: "17.00",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Pork sirloin tip with whiskey sauce",
     price: "10.50",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Pork sirloin tip with Roquefort sauce",
     price: "10.50",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Grilled Iberian pork steak",
-    price: "10.00",
+    price: "11.00",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Large matured beef chop",
-    price: "50.00/kg",
+    price: "55.00/kg",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Chicken breast",
     price: "10.00",
     price2:"",
@@ -268,33 +292,34 @@ export const meat = [
 
 export const special = [
   {
-    name: "Serranito Especial (Pork sirloin tip, cheese, omelet and Iberian ham)",
+    name: "Special Serranito (Pork sirloin tip, cheese, omelet and Iberian ham)",
+    price: "10.50",
+    price2:"",
+  }, 
+  {
+    name: "Special Serranito de pollo (Chicken, cheese, omelet and Iberian ham)",
+    price: "10.50",
+    price2:"",
+  }, 
+  {
+    name: "San Jacobo Serrano Maxi (pork loin, ham and cheese ribbon)",
     price: "10.00",
     price2:"",
-  }, {
-    name: "Special Serranito de pollo (Chicken, French omelet cheese and Iberian ham)",
-    price: "10.00",
-    price2:"",
-  }, {
-    name: "San Jacobo's pork (pork loin, ham and cheese)",
-    price: "10.00",
-    price2:"",
-  }, {
-    name: "San Jacobo's chicken (chicken ham and cheese)",
-    price: "6.50",
-    price2:"",
-  }, {
-    name: "Extra beef burger 200gr., bacon and cheese",
-    price: "10.00",
-    price2:"",
-  }, {
-    name: "Broken eggs with ham",
+  },
+  {
+    name: "Extra beef burger 200gr., Bacon and Cheese",
     price: "11.00",
     price2:"",
-  }, {
-    name: "Paella of the day",
-    price: "9.00",
+  }, 
+  {
+    name: "Broken eggs with Iberian Ham",
+    price: "11.00",
     price2:"",
+  }, 
+  {
+    name: "Paella of the day",
+    price: "10.00",
+    price2:"19.50",
   },
 ]
 
@@ -304,15 +329,18 @@ export const adds = [
     name: "Bread and picks",
     price: "1.00",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Olives",
     price: "2.00",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Various sauces",
     price: "0.80",
     price2:"",
-  }, {
+  }, 
+  {
     name: "Mayonnaise or Ketchup",
     price: "0.20",
     price2:"",
