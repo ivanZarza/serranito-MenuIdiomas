@@ -5,6 +5,10 @@ import vue from '@vitejs/plugin-vue'
 
 import path from "path"
 
+const {
+  PUBLIC_DIR = 'dist',
+} = process.env
+
 // https://vitejs.dev/config/
 export default defineConfig({
   publicPath: process.env.PUBLIC_HTML || '/',
@@ -12,7 +16,7 @@ export default defineConfig({
     vue(),
   ],
   build: {
-    outDir: path.join(__dirname, "docs"),
+    outDir: path.join(__dirname, PUBLIC_DIR),
   },
   resolve: {
     alias: {
