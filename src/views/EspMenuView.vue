@@ -137,7 +137,7 @@ button.current {
   width: 100%;
   height: auto;
   min-height: 400px;
-  background-image:url(../../public/wall_tile.svg);
+  background-image:url(../../public/wall_tile_02.svg);
   background-size: 50px 50px ;
   background-repeat: repeat;
   background-color: #2e3191;
