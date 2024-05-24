@@ -262,7 +262,7 @@ export const start =[
       price2:"",
     }, 
     {
-      name : "Pointe de surlonge de porc sauce w.isky",
+      name : "Pointe de surlonge de porc sauce whisky",
       price : "10,50",
       price2:"",
     }, 
