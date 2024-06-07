@@ -58,6 +58,17 @@ const tabKeys = [
 </script>
 
 <template>
+      <div class="cap-button">
+      <button
+        v-for="key in tabKeys"
+        class="fondo"
+        :class="{ current: currentTab == key }"
+        @click="change(key)"
+      >
+        {{ tabLabels[key] }}
+        <!-- {{ $t(`tabsLabels.${key}`) }} -->
+      </button >
+    </div>
     <div class="base-table">
         <table class="table">
           <tbody>
@@ -69,17 +80,6 @@ const tabKeys = [
           </tbody>
         </table>
     </div>  
-    <div class="cap-button">
-      <button
-        v-for="key in tabKeys"
-        class="fondo"
-        :class="{ current: currentTab == key }"
-        @click="change(key)"
-      >
-        {{ tabLabels[key] }}
-        <!-- {{ $t(`tabsLabels.${key}`) }} -->
-      </button >
-    </div>
   <div class="cap-footer">
     <span>Prices include VAT</span>
     <span>Ask the waiter about allergens</span>
@@ -98,7 +98,6 @@ const tabKeys = [
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   align-items: center;
   gap: 2px;
-  position: fixed;
   bottom: 0;
   width: 100%;
   padding: 4px;
@@ -152,7 +151,7 @@ button.current {
   padding: 20px;
   border-radius: 50px;
   color: white;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 td {
