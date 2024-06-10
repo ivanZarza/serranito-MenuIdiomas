@@ -14,14 +14,14 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </RouterLink>
   </div>
-
+  
 
   <div class="fondo">
       <nav>
-        <RouterLink to="/english">English</RouterLink>
-        <RouterLink to="/français">Français</RouterLink>
-        <RouterLink to="/deutsch">Deutsch</RouterLink>
-        <RouterLink to="/español">Español</RouterLink>
+        <RouterLink to="/english">🏴󠁧󠁢󠁥󠁮󠁧󠁿</RouterLink>
+        <RouterLink to="/français">🇫🇷</RouterLink>
+        <RouterLink to="/deutsch">🇩🇪</RouterLink>
+        <RouterLink to="/español">🇪🇦</RouterLink>
       </nav>
   <RouterView />
 </div>

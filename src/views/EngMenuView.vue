@@ -1,9 +1,9 @@
 <script setup>
 import { ref, computed } from 'vue'
-import { start,bread,stew,share,friet,sea,meat,special,adds } from '@/data/enMenu';
+import { start,bread,stew,share,friet,sea,meat,special,adds,blancos,tintos,olorosos,} from '@/data/enMenu';
 
 const dataSources = {
-  start,bread,stew,share,friet,sea,meat,special,adds,
+  start,bread,stew,share,friet,sea,meat,special,adds,blancos,tintos,olorosos,
 }
 
 const currentTab = ref('start')
@@ -41,6 +41,9 @@ const tabLabels = {
   meat: 'From pasture',
   special: 'House specialities',
   adds: 'Mix accessories',
+  blancos: 'White wines',
+  tintos: 'Red wines',
+  olorosos: 'Aromatic wines',
 }
 
 const tabKeys = [
@@ -53,6 +56,9 @@ const tabKeys = [
   'meat',
   'special',
   'adds',
+  'blancos',
+  'tintos',
+  'olorosos'
 ]
 
 </script>

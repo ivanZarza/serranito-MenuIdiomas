@@ -420,7 +420,7 @@ export const tintos = [
     price2: "19.20",
   },
   {
-    name: "Satinela",
+    name: "Capilla",
     price: "",
     price2:"20.30",
   },

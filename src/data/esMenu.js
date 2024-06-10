@@ -164,31 +164,38 @@ export const friet = [
     name: "Choco frito",
     price: "10.00",
     price2:"",
-  },  {
+  },  
+  {
     name: "Cazon en adobo",
     price: "9.50",
     price2:"",
-  },  {
+  },  
+  {
     name: "Boquerones",
     price: "9.50",
     price2:"",
-  },  {
+  },  
+  {
     name: "Bacalao",
     price: "10.00",
     price2:"",
-  },  {
+  },  
+  {
     name: "Puntillas de calamar",
     price: "9.50",
     price2:"",
-  },  {
+  },  
+  {
     name: "Chanquetes pequeños con pimiento y huevo",
     price: "11.00",
     price2:"",
-  },  {
+  },  
+  {
     name: "Tortilla de camarones",
     price: "9.50",
     price2:"",
-  },  {
+  },  
+  {
     name: "Fritura mixta",
     price: "19.50",
     price2:"",
@@ -197,26 +204,31 @@ export const friet = [
 
 export const sea =[
   {
-    name: "Calamares pequeños a la plancha",
+    name: "Chipirones a la plancha",
     price: "9.00",
     price2:"",
-  },  {
+  },
+  {
     name: "Choco a la Plancha",
     price: "3.50/100gr",
     price2:"",
-  },  {
+  },
+  {
     name: "Lubina a la espalda con guarnicion",
     price: "15.00",
     price2:"",
-  },  {
+  },
+  {
     name: "Parrillada de Pescados",
     price: "31.00",
     price2:"",
-  },  {
+  },
+  {
     name: "Coquinas",
     price: "15.00",
     price2:"",
-  },  {
+  },  
+  {
     name: "Ventresca de atun",
     price: "18.00",
     price2:"",
@@ -405,7 +417,7 @@ export const tintos = [
     price2: "19.20",
   },
   {
-    name: "Satinela",
+    name: "Capilla",
     price: "",
     price2:"20.30",
   },
