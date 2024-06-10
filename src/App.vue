@@ -34,14 +34,15 @@ import { RouterLink, RouterView } from 'vue-router'
 <style scoped>
 
 span {
-  width: 30px;
   margin: 20px;
+  font-size: 50px;
+  background-color: white;
 }
 
 nav {
-
   margin-top: 2px;
 }
+
 
 .base {
   width: 100%;
