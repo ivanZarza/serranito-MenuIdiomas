@@ -34,6 +34,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <style scoped>
 
 span {
+  height: 15px;
   margin: 10px;
   font-size: 25px;
   background-color: white;
