@@ -147,6 +147,7 @@ button.current {
   background-repeat: repeat;
   background-color: #2e3191;
   border: 1px solid white;
+  border-radius: 50px;
 }
 
 
