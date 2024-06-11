@@ -112,11 +112,11 @@ const tabKeys = [
 
 button {
   margin: 2px;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
   font-weight: bold;
   padding: 5px;
-  width: 120px;
+  width: 110px;
   height: 60px;
   color: #2e3191;
   background-color: var(--color-primary);
@@ -135,7 +135,7 @@ button:active {
 button.current {
   color: var(--color-primary);
   background-color: #2e3191;
-  width: 120px;
+  width: 110px;
   height: 70px;
 }
 
