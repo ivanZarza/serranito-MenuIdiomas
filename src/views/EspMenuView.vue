@@ -140,7 +140,7 @@ button.current {
 }
 
 .base-table {
-  width: 100%;
+  width: 100vw;
   height: auto;
   min-height: 400px;
   background-image:url(../../public/wall_tile_02.svg);
@@ -148,7 +148,6 @@ button.current {
   background-repeat: repeat;
   background-color: #2e3191;
   border: 1px solid white;
-  border-radius: 50px;
 }
 
 
@@ -158,7 +157,7 @@ button.current {
   padding: 20px;
   border-radius: 50px;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 td {
