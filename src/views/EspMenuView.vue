@@ -120,7 +120,7 @@ button {
   height: 60px;
   color: #2e3191;
   background-color: var(--color-primary);
-  border-radius: 15px 15px 0 0;
+  border-radius: 15px ;
   border: 0;
   transform: translateY(0);
   transition: height 500ms ease;
