@@ -105,7 +105,7 @@ const tabKeys = [
   align-items: center;
   gap: 2px;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   padding: 4px;
 }
 button {
