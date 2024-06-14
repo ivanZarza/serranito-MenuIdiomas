@@ -111,18 +111,18 @@ const tabKeys = [
 
 button {
   margin: 2px;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   font-weight: bold;
   padding: 5px;
-  width: 100px;
-  height: 40px;
+  width: 110px;
+  height: 60px;
   color: #2e3191;
   background-color: var(--color-primary);
-  border-radius: 15px 15px 0 0;
+  border-radius: 15px ;
   border: 0;
   transform: translateY(0);
-  transition: width 250ms ease;
+  transition: height 500ms ease;
 }
 
 button:active {
@@ -134,8 +134,8 @@ button:active {
 button.current {
   color: var(--color-primary);
   background-color: #2e3191;
-  width: 100px;
-  height: 50px;
+  width: 110px;
+  height: 70px;
 }
 
 .base-table {

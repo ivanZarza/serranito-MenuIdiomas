@@ -2,7 +2,7 @@ export const start =[
     {
       name : "Jambon Ibérique ",
       price : "9.00",
-      price2 : "17.00",
+      price2 : "17.00",
     },
     {
       name : "Longe ibérique",
