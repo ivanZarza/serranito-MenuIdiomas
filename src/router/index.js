@@ -27,7 +27,17 @@ const router = createRouter({
     {
       path: '/español',
       name: 'español',
+      component: () => import('../views/EspSelectView.vue')
+    },
+    {
+      path: '/español/menu',
+      name: 'espcomidas',
       component: () => import('../views/EspMenuView.vue')
+    },
+    {
+      path: '/español/bebidas',
+      name: 'espbebidas',
+      component: () => import('../views/EspDrinkView.vue')
     }
   ]
 })

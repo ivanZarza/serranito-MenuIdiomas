@@ -1,13 +1,13 @@
 <script setup>
 import EspSelectView from './EspSelectView.vue';
 import { ref, computed } from 'vue'
-import { start,bread,stew,share,friet,sea,meat,special,adds,blancos,tintos,olorosos } from '@/data/esMenu';
+import { whiteWine, redWine, localWine, softDrinks, hotDrinks, beers, liquors } from '@/data/esDrinks';
 
 const dataSources = {
-  start,bread,stew,share,friet,sea,meat,special,adds,blancos,tintos,olorosos
+  whiteWine, redWine, localWine, softDrinks, hotDrinks, beers,liquors,
 }
 
-const currentTab = ref('start')
+const currentTab = ref('softDrinks')
 const data = computed(() => dataSources[currentTab.value])
 
 const change = (sectionName) => {
@@ -33,34 +33,23 @@ const change = (sectionName) => {
 // })
 
 const tabLabels = {
-  start: 'Para comenzar',
-  bread: 'Nuestros panes',
-  stew: 'Guisos caseros con tradición',
-  share: 'Algo para compartir',
-  friet: 'Frituras sevillana',
-  sea: 'Del mar',
-  meat: 'De la dehesa',
-  special: 'Especialidades de la casa',
-  adds: 'Varios',
-  blancos: 'Vinos blancos',
-  tintos: 'Vinos tintos',
-  olorosos: 'Vinos olorosos'
-  
+  softDrinks: 'Refrescos',
+  hotDrinks: 'Cafés',
+  beers: 'Cervezas',
+  whiteWine: 'Vinos blancos', 
+  redWine: 'Vinos tintos',    
+  localWine: 'Vinos olorosos',
+  liquors: 'Licores',
 }
 
 const tabKeys = [
-  'start',
-  'bread',
-  'stew',
-  'share',
-  'friet',
-  'sea',
-  'meat',
-  'special',
-  'adds',
-  'blancos',
-  'tintos',
-  'olorosos',
+  'softDrinks',
+  'hotDrinks',
+  'beers',
+  'whiteWine',
+  'redWine',
+  'localWine',
+  'liquors',
 ]
 
 </script>
@@ -191,4 +180,11 @@ justify-content: center;
 text-align: center;
 }
 
+th {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--color-primary);
+  border-radius: 50px;
+  text-align: left;
+}
 </style>
