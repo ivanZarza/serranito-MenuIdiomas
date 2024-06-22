@@ -1,3 +1,102 @@
+export const softDrinks = [
+  {
+    name: "Coca Cola",
+    price: "1.50",
+  },
+  {
+    name: "Fanta",
+    price: "1.50",
+  },
+  {
+    name: "Sprite",
+    price: "1.50",
+  },
+  {
+    name: "Nestea",
+    price: "1.50",
+  },
+  {
+    name: "Agua",
+    price: "1.00",
+  },
+  {
+    name: "Tonica",
+    price: "1.50",
+  },
+  {
+    name: "Zumo",
+    price: "1.50",
+  },
+  {
+    name: "Cerveza",
+    price: "1.50",
+  },
+]
+
+export const hotDrinks = [
+  {
+    name: "Café",
+    price: "1.20",
+  },
+  {
+    name: "Café con leche",
+    price: "1.50",
+  },
+  {
+    name: "Café cortado",
+    price: "1.30",
+  },
+  {
+    name: "Café solo",
+    price: "1.00",
+  },
+  {
+    name: "Café descafeinado",
+    price: "1.20",
+  },
+  {
+    name: "Chocolate",
+    price: "1.50",
+  },
+  {
+    name: "Chocolate con churros",
+    price: "3.00",
+  },
+  {
+    name: "Cappuccino",
+    price: "1.80",
+  },
+  {
+    name: "Café irlandés",
+    price: "3.50",
+  },
+  {
+    name: "Té",
+    price: "1.20",
+  },
+  {
+    name: "Té con leche",
+    price: "1.50",
+  },
+  {
+    name: "Té de manzanilla",
+    price: "1.20",
+  },
+  {
+    name: "Té de menta",
+    price: "1.20",
+  },
+  {
+    name: "Té de frutas",
+    price: "1.20",
+  },
+  {
+    name: "Infusión",
+    price: "1.20",
+  },
+]  
+
+
 export const whiteWine = [
     {
       name: "AC La Rodeta",
