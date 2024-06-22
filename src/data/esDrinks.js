@@ -1,5 +1,9 @@
 export const softDrinks = [
   {
+    name: "NOMBRE",
+    price: "PRECIO",
+  },
+  {
     name: "Coca Cola",
     price: "1.50",
   },
@@ -33,7 +37,74 @@ export const softDrinks = [
   },
 ]
 
+export const beers = [
+  {
+    name: "NOMBRE",
+    price: "PRECIO",
+  },
+  {
+    name: "Cruzcampo",
+    price: "1.50",
+  },
+  {
+    name: "Mahou",
+    price: "1.50",
+  },
+  {
+    name: "Estrella Galicia",
+    price: "1.50",
+  },
+  {
+    name: "San Miguel",
+    price: "1.50",
+  },
+  {
+    name: "Amstel",
+    price: "1.50",
+  },
+  {
+    name: "Heineken",
+    price: "1.50",
+  },
+  {
+    name: "Coronita",
+    price: "1.50",
+  },
+  {
+    name: "Guinness",
+    price: "1.50",
+  },
+  {
+    name: "Paulaner",
+    price: "1.50",
+  },
+  {
+    name: "Leffe",
+    price: "1.50",
+  },
+  {
+    name: "Alhambra",
+    price: "1.50",
+  },
+  {
+    name: "Alhambra Reserva",
+    price: "1.50",
+  },
+  {
+    name: "Alhambra Especial",
+    price: "1.50",
+  },
+  {
+    name: "Alhambra 1925",
+    price: "1.50",
+  },
+]
+
 export const hotDrinks = [
+  {
+    name: "NOMBRE",
+    price: "PRECIO",
+  },
   {
     name: "Café",
     price: "1.20",
@@ -98,6 +169,11 @@ export const hotDrinks = [
 
 
 export const whiteWine = [
+    {
+    name: "NOMBRE",
+    price: "COPA",
+    price2: "BOTELLA",
+    },
     {
       name: "AC La Rodeta",
       price: "3.00",
@@ -205,3 +281,93 @@ export const whiteWine = [
     },
   ]
   
+export const liquors = [
+  {
+    name: "Whisky",
+    price: "3.00",
+  },
+  {
+    name: "Ron",
+    price: "3.00",
+  },
+  {
+    name: "Ginebra",
+    price: "3.00",
+  },
+  {
+    name: "Vodka",
+    price: "3.00",
+  },
+  {
+    name: "Brandy",
+    price: "3.00",
+  },
+  {
+    name: "Cognac",
+    price: "3.00",
+  },
+  {
+    name: "Tequila",
+    price: "3.00",
+  },
+  {
+    name: "Pacharán",
+    price: "3.00",
+  },
+  {
+    name: "Orujo",
+    price: "3.00",
+  },
+  {
+    name: "Licor de hierbas",
+    price: "3.00",
+  },
+  {
+    name: "Licor de café",
+    price: "3.00",
+  },
+  {
+    name: "Licor de plátano",
+    price: "3.00",
+  },
+  {
+    name: "Licor de melocotón",
+    price: "3.00",
+  },
+  {
+    name: "Licor de manzana",
+    price: "3.00",
+  },
+  {
+    name: "Licor de fresa",
+    price: "3.00",
+  },
+  {
+    name: "Licor de mora",
+    price: "3.00",
+  },
+  {
+    name: "Licor de limón",
+    price: "3.00",
+  },
+  {
+    name: "Licor de naranja",
+    price: "3.00",
+  },
+  {
+    name: "Licor de café",
+    price: "3.00",
+  },
+  {
+    name: "Licor de arroz",
+    price: "3.00",
+  },
+  {
+    name: "Licor de almendra",
+    price: "3.00",
+  },
+  {
+    name: "Licor de avellan",
+    price: "3.00",
+  }
+] 

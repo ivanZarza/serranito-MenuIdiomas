@@ -1,13 +1,13 @@
 <script setup>
 import EspSelectView from './EspSelectView.vue';
 import { ref, computed } from 'vue'
-import { whiteWine, redWine, localWine } from '@/data/esDrinks';
+import { whiteWine, redWine, localWine, softDrinks, hotDrinks, beers, liquors } from '@/data/esDrinks';
 
 const dataSources = {
-  whiteWine, redWine, localWine
+  whiteWine, redWine, localWine, softDrinks, hotDrinks, beers,liquors,
 }
 
-const currentTab = ref('whiteWine')
+const currentTab = ref('softDrinks')
 const data = computed(() => dataSources[currentTab.value])
 
 const change = (sectionName) => {
@@ -33,15 +33,23 @@ const change = (sectionName) => {
 // })
 
 const tabLabels = {
+  softDrinks: 'Refrescos',
+  hotDrinks: 'Cafés',
+  beers: 'Cervezas',
   whiteWine: 'Vinos blancos', 
   redWine: 'Vinos tintos',    
-  localWine: 'Vinos olorosos'
+  localWine: 'Vinos olorosos',
+  liquors: 'Licores',
 }
 
 const tabKeys = [
+  'softDrinks',
+  'hotDrinks',
+  'beers',
   'whiteWine',
   'redWine',
-  'localWine'
+  'localWine',
+  'liquors',
 ]
 
 </script>
@@ -60,13 +68,6 @@ const tabKeys = [
     </div>
     <div class="base-table">
         <table class="table">
-          <thead>
-            <tr>
-              <th>Nombre</th>
-              <th>Copa</th>
-              <th>Botella</th>
-            </tr>
-          </thead>
           <tbody>
             <tr v-for="{ name, price, price2 } in data" :key="name">
               <td class="change">{{ name }}</td>
