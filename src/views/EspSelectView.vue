@@ -34,7 +34,7 @@ div {
   cursor: pointer;
   transition: all 0.3s;
   height: 90%;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 router-link {
