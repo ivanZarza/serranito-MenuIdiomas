@@ -22,10 +22,10 @@ import { RouterLink, RouterView } from 'vue-router'
 
   <div class="fondo">
     <nav>
-      <RouterLink to="/english"><span>🏴󠁧󠁢󠁥󠁮󠁧󠁿</span></RouterLink>
-      <RouterLink to="/français"><span>🇫🇷</span></RouterLink>
-      <RouterLink to="/deutsch"><span>🇩🇪</span></RouterLink>
-      <RouterLink to="/español"><span>🇪🇦</span></RouterLink>
+      <RouterLink to="/english"><div>🏴󠁧󠁢󠁥󠁮󠁧󠁿</div></RouterLink>
+      <RouterLink to="/français"><div>🇫🇷</div></RouterLink>
+      <RouterLink to="/deutsch"><div>🇩🇪</div></RouterLink>
+      <RouterLink to="/español"><div>🇪🇦</div></RouterLink>
     </nav>
     <RouterView />
   </div>
@@ -33,14 +33,19 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <style scoped>
 
-span {
+nav div {
   margin: 10px;
   font-size: 25px;
   background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 nav {
-  margin-top: 2px;
+  margin: 2px;
+  display: flex;
 }
 
 
