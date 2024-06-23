@@ -162,7 +162,7 @@ button.current {
   padding: 20px;
   border-radius: 50px;
   color: white;
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 
 td {
