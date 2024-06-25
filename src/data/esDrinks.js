@@ -1,7 +1,11 @@
+import { p } from "../../docs/assets/index-pcN7zP_i"
+
+
 export const softDrinks = [
   {
     name: "NOMBRE",
     price: "PRECIO",
+    price2: "PRECIO",
   },
   {
     name: "Coca Cola",
@@ -32,8 +36,24 @@ export const softDrinks = [
     price: "1.50",
   },
   {
+    name: "",
+    price: "VASO",
+    price2: "JARRA",
+  },
+  {
     name: "Cerveza",
     price: "1.50",
+    price2: "5.00",
+  },
+  {
+    name: "Sangria",
+    price: "1.50",
+    price2: "5.00",
+  },
+  {
+    name: "Tinto de verano",
+    price: "1.50",
+    price2: "5.00",
   },
 ]
 
@@ -47,19 +67,15 @@ export const beers = [
     price: "1.50",
   },
   {
-    name: "Mahou",
+    name: "Cruzcampo sin gluten",
     price: "1.50",
   },
   {
-    name: "Estrella Galicia",
+    name: "Alcázar",
     price: "1.50",
   },
   {
-    name: "San Miguel",
-    price: "1.50",
-  },
-  {
-    name: "Amstel",
+    name: "Aguila sin filtrar",
     price: "1.50",
   },
   {
@@ -67,11 +83,11 @@ export const beers = [
     price: "1.50",
   },
   {
-    name: "Coronita",
+    name: "Sol",
     price: "1.50",
   },
   {
-    name: "Guinness",
+    name: "Desperados",
     price: "1.50",
   },
   {
@@ -79,23 +95,31 @@ export const beers = [
     price: "1.50",
   },
   {
-    name: "Leffe",
+    name: "",
     price: "1.50",
   },
   {
-    name: "Alhambra",
+    name: "Cruzcampo Gran Reserva",
     price: "1.50",
   },
   {
-    name: "Alhambra Reserva",
+    name: "Desperados",
     price: "1.50",
   },
   {
-    name: "Alhambra Especial",
+    name: "Guinness",
     price: "1.50",
   },
   {
-    name: "Alhambra 1925",
+    name: "Heineken 0.0",
+    price: "1.50",
+  },
+  {
+    name: "Cruzcampo 0.0",
+    price: "1.50",
+  },
+  {
+    name: "Amstel 0.0 tostada",
     price: "1.50",
   },
 ]
@@ -222,6 +246,11 @@ export const whiteWine = [
   
   export const redWine = [
     {
+      name: "NOMBRE",
+      price: "COPA",
+      price2: "BOTELLA",
+    },
+    {
       name: "Azpilicueta",
       price: "3.50",
       price2: "17.50",
@@ -265,6 +294,11 @@ export const whiteWine = [
   
   export const localWine = [
     {
+      name: "NOMBRE",
+      price: "COPA",
+      price2: "BOTELLA",
+    },
+    {
       name: "Canasta",
       price: "2.70",
       price2: "14.80",
@@ -282,6 +316,12 @@ export const whiteWine = [
   ]
   
 export const liquors = [
+  {
+    name: "NOMBRE",
+    price: "CHUPITO",
+    price2: "COPA",
+    price3: "BOTELLA",
+  },
   {
     name: "Whisky",
     price: "3.00",
