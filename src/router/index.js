@@ -37,7 +37,7 @@ const router = createRouter({
     {
       path: '/español/bebidas',
       name: 'espbebidas',
-      component: () => import('../views/InProgress.vue')
+      component: () => import('../views/EspDrinkView.vue')
     }
   ]
 })

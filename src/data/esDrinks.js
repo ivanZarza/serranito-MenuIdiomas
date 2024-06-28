@@ -1,126 +1,182 @@
-import { p } from "../../docs/assets/index-pcN7zP_i"
+
 
 
 export const softDrinks = [
   {
     name: "NOMBRE",
     price: "PRECIO",
-    price2: "PRECIO",
-  },
-  {
-    name: "Coca Cola",
-    price: "1.50",
-  },
-  {
-    name: "Fanta",
-    price: "1.50",
-  },
-  {
-    name: "Sprite",
-    price: "1.50",
-  },
-  {
-    name: "Nestea",
-    price: "1.50",
+    price2: "",
   },
   {
     name: "Agua",
-    price: "1.00",
+    price: "2.20",
+  },
+  {
+    name: "Agua con gas",
+    price: "2.40",
+  },
+  {
+    name: "Coca Cola",
+    price: "2.40",
+  },
+  {
+    name: "Coca Cola zero",
+    price: "2.40",
+  },
+  {
+    name: "Coca Cola zero zero",
+    price: "2.40",
+  },
+  {
+    name: "Fanta naranja",
+    price: "2.40",
+  },
+  {
+    name: "Fanta limon",
+    price: "2.40",
+  },
+  {
+    name: "Sprite",
+    price: "2.40",
   },
   {
     name: "Tonica",
-    price: "1.50",
+    price: "2.40",
   },
   {
-    name: "Zumo",
-    price: "1.50",
+    name: "Nestea",
+    price: "2.60",
   },
   {
-    name: "",
-    price: "VASO",
-    price2: "JARRA",
+    name: "Aquarius",
+    price: "2.60",
   },
   {
-    name: "Cerveza",
-    price: "1.50",
-    price2: "5.00",
+    name: "Aquarius naranja",
+    price: "2.60",
   },
   {
-    name: "Sangria",
-    price: "1.50",
-    price2: "5.00",
+    name: "Batido de chocolate",
+    price: "1.80",
   },
   {
-    name: "Tinto de verano",
-    price: "1.50",
-    price2: "5.00",
+    name: "Batido de fresa",
+    price: "1.80",
+  },
+  {
+    name: "Batido de vainilla",
+    price: "1.80",
+  },
+  {
+    name: "batido de vainilla",
+    price: "1.80",
+  },
+  {
+    name: "Zumo de naranja",
+    price: "2.00",
+  },
+  {
+    name: "Zumo de melocotón",
+    price: "2.00",
+  },
+  {
+    name: "Zumo piña",
+    price: "2.00",
   },
 ]
 
 export const beers = [
   {
     name: "NOMBRE",
-    price: "PRECIO",
+    price3: "PRECIO",
   },
   {
-    name: "Cruzcampo",
-    price: "1.50",
+    name: "Cruzcampo Especial",
+    price3: "3.00",
   },
   {
     name: "Cruzcampo sin gluten",
-    price: "1.50",
+    price3: "3.50",
   },
   {
     name: "Alcázar",
-    price: "1.50",
+    price3: "3.00",
   },
   {
     name: "Aguila sin filtrar",
-    price: "1.50",
+    price3: "3.00",
   },
   {
     name: "Heineken",
-    price: "1.50",
+    price3: "4.10",
   },
   {
     name: "Sol",
-    price: "1.50",
+    price3: "3.60",
   },
   {
     name: "Desperados",
-    price: "1.50",
+    price3: "3.50",
   },
   {
     name: "Paulaner",
-    price: "1.50",
+    price3: "4.50",
   },
   {
-    name: "",
-    price: "1.50",
+    name: "18/70 La rubia",
+    price3: "3.00",
   },
   {
     name: "Cruzcampo Gran Reserva",
-    price: "1.50",
+    price3: "4.00",
   },
   {
-    name: "Desperados",
-    price: "1.50",
+    name: "Lagunitas",
+    price3: "3.60",
   },
   {
     name: "Guinness",
-    price: "1.50",
+    price3: "4.50",
   },
   {
     name: "Heineken 0.0",
-    price: "1.50",
+    price3: "3.10",
   },
   {
     name: "Cruzcampo 0.0",
-    price: "1.50",
+    price3: "2.50",
   },
   {
     name: "Amstel 0.0 tostada",
-    price: "1.50",
+    price3: "3.10",
+  },
+  {
+    name: "----------",
+    price3: "----------", 
+  },
+  {
+    name: "CERVEZAS DE PRESION",
+    price: "27CL",
+    price2: "50CL",
+    price3: "JARRA",
+  },
+  {
+    name: "Cruzcampo",
+    price: "1.70",
+    price2: "3.50",
+    price3: "7.00",
+  },
+  {
+    name: "Radler",
+    price: "1.80",
+    price2: "3.60",
+    price3: "7.10",
+  },
+  {
+    name: "Cruzcampo sin alcohol",
+    price: "1.80",
+    price2: "3.60",
+    price3: "7.10",
   },
 ]
 
@@ -131,31 +187,15 @@ export const hotDrinks = [
   },
   {
     name: "Café",
-    price: "1.20",
+    price: "2,00",
   },
   {
-    name: "Café con leche",
-    price: "1.50",
+    name: "Carajillo",
+    price: "2,50",
   },
   {
-    name: "Café cortado",
-    price: "1.30",
-  },
-  {
-    name: "Café solo",
-    price: "1.00",
-  },
-  {
-    name: "Café descafeinado",
-    price: "1.20",
-  },
-  {
-    name: "Chocolate",
-    price: "1.50",
-  },
-  {
-    name: "Chocolate con churros",
-    price: "3.00",
+    name: "Colacao",
+    price: "2,00",
   },
   {
     name: "Cappuccino",
@@ -166,29 +206,13 @@ export const hotDrinks = [
     price: "3.50",
   },
   {
-    name: "Té",
-    price: "1.20",
-  },
-  {
-    name: "Té con leche",
-    price: "1.50",
-  },
-  {
-    name: "Té de manzanilla",
-    price: "1.20",
-  },
-  {
-    name: "Té de menta",
-    price: "1.20",
-  },
-  {
-    name: "Té de frutas",
-    price: "1.20",
-  },
-  {
     name: "Infusión",
-    price: "1.20",
+    price: "1.80",
   },
+  {
+    name: "vaso de leche",
+    price: "1.50",
+  }
 ]  
 
 
@@ -320,94 +344,214 @@ export const liquors = [
     name: "NOMBRE",
     price: "CHUPITO",
     price2: "COPA",
-    price3: "BOTELLA",
+    price3: "COMB",
   },
   {
-    name: "Whisky",
-    price: "3.00",
+    name: "Beefeater",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
   },
   {
-    name: "Ron",
-    price: "3.00",
+    name: "Seagram's",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
   },
   {
-    name: "Ginebra",
-    price: "3.00",
+    name: "Larios",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
   },
   {
-    name: "Vodka",
-    price: "3.00",
+    name: "Rives",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
   },
   {
-    name: "Brandy",
-    price: "3.00",
+    name: "Puerto de Indias",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
   },
   {
-    name: "Cognac",
-    price: "3.00",
+    name: "Tanqueray 0.0",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
   },
   {
-    name: "Tequila",
-    price: "3.00",
+    name: "Bombay Sapphire",
+    price: "3.90",
+    price2: "5.40",
+    price3: "7.80",
+  },
+  {
+    name: "Larios 12",
+    price: "3.90",
+    price2: "5.40",
+    price3: "7.80",
+  },
+  {
+    name: "Ballantine's",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
+  },
+  {
+    name: "Dewar's White Label",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
+  },
+  {
+    name: "J&B",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
+  },
+  {
+    name: "Jameson",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
+  },
+  {
+    name: "Johnnie Walker Red Label",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
+  },
+  {
+    name: "Johnnie Walker Black Label",
+    price: "3.90",
+    price2: "8.50",
+    price3: "10.90",
+  },
+  {
+    name: "Bacardi",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
+  },
+  {
+    name: "Cacique",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
+  },
+  {
+    name: "Legendario",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
+  },
+  {
+    name: "Brugal",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
+  },
+  {
+    name: "Absolut",
+    price: "3.10",
+    price2: "4.60",
+    price3: "7.00",
+  },
+  {
+    name: "Martini",
+    price: "",
+    price2: "4.70",
+    price3: "",
+  },
+  {
+    name: "Fot-li",
+    price: "",
+    price2: "4.70",
+    price3: "",
+  },
+  {
+    name: "Ricard",
+    price: "",
+    price2: "4.70",
+    price3: "",
   },
   {
     name: "Pacharán",
-    price: "3.00",
-  },
-  {
-    name: "Orujo",
-    price: "3.00",
+    price: "3.40",
+    price2: "3.70",
+    price3: "",
   },
   {
     name: "Licor de hierbas",
-    price: "3.00",
+    price: "2.80",
+    price2: "3.10",
+    price3: "",
   },
   {
-    name: "Licor de café",
-    price: "3.00",
+    name: "Crema de orujo",
+    price: "3.10",
+    price2: "3.40",
+    price3: "",
   },
   {
-    name: "Licor de plátano",
-    price: "3.00",
+    name: "Baileys",
+    price: "2.60",
+    price2: "5.50",
+    price3: "",
   },
   {
-    name: "Licor de melocotón",
-    price: "3.00",
+    name: "Limoncello",
+    price: "2.80",
+    price2: "3.10",
+    price3: "",
   },
   {
-    name: "Licor de manzana",
-    price: "3.00",
+    name: "Miura",
+    price: "2.80",
+    price2: "3.10",
+    price3: "",
   },
   {
-    name: "Licor de fresa",
-    price: "3.00",
+    name: "Magno",
+    price: "2.40",
+    price2: "2.70",
+    price3: "",
   },
   {
-    name: "Licor de mora",
-    price: "3.00",
+    name: "Castellana dulce",
+    price: "2.00",
+    price2: "2.30",
+    price3: "",
   },
   {
-    name: "Licor de limón",
-    price: "3.00",
+    name: "Castellana seca",
+    price: "2.00",
+    price2: "2.30",
+    price3: "",
   },
   {
-    name: "Licor de naranja",
-    price: "3.00",
+    name: "Licor manzana sin alcohol",
+    price: "2.80",
+    price2: "3.10",
+    price3: "",
   },
   {
-    name: "Licor de café",
-    price: "3.00",
+    name: "----------------",
+    price: "50CL",
+    price2: "JARRA",
+    price3: "---",
   },
   {
-    name: "Licor de arroz",
-    price: "3.00",
+    name: "Sangria",
+    price: "5.80",
+    price2: "11.00",
   },
   {
-    name: "Licor de almendra",
-    price: "3.00",
+    name: "Tinto de verano",
+    price: "3.50",
+    price2: "7.00",
   },
-  {
-    name: "Licor de avellan",
-    price: "3.00",
-  }
 ] 

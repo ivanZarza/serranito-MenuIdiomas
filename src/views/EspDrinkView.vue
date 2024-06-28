@@ -39,7 +39,7 @@ const tabLabels = {
   whiteWine: 'Vinos blancos', 
   redWine: 'Vinos tintos',    
   localWine: 'Vinos olorosos',
-  liquors: 'Licores',
+  liquors: 'Licores y combinados',
 }
 
 const tabKeys = [
@@ -69,10 +69,11 @@ const tabKeys = [
     <div class="base-table">
         <table class="table">
           <tbody>
-            <tr v-for="{ name, price, price2 } in data" :key="name">
+            <tr v-for="{ name, price, price2, price3 } in data" :key="name">
               <td class="change">{{ name }}</td>
-              <td>{{ price }}</td>
-              <td>{{ price2 }}</td>
+              <td class="prices">{{ price }}</td>
+              <td class="prices">{{ price2 }}</td>
+              <td class="prices">{{ price3 }}</td>
             </tr>
           </tbody>
         </table>
@@ -152,7 +153,7 @@ button.current {
   padding: 20px;
   border-radius: 50px;
   color: white;
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 
 td {
@@ -187,5 +188,9 @@ th {
   color: var(--color-primary);
   border-radius: 50px;
   text-align: left;
+}
+
+.prices {
+text-align: center;
 }
 </style>
