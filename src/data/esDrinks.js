@@ -509,6 +509,12 @@ export const liquors = [
     price3: "",
   },
   {
+    name: "Vodka caramelo",
+    price: "2.80",
+    price2: "3.10",
+    price3: "",
+  },
+  {
     name: "Miura",
     price: "2.80",
     price2: "3.10",
