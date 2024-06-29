@@ -253,15 +253,6 @@ export const whiteWine = [
       price2:"14,00",
     },
     {
-      name: "La Ina",
-      price: "2.70",
-      price2:"13.70",
-    },
-    {
-      name: "Solear",
-      price: "2.80",
-      price2:"14.20",
-    },  {
       name: "Codorniu 1551",
       price: "",
       price2:"14.80",
@@ -336,6 +327,16 @@ export const whiteWine = [
       name: "Alfonso",
       price: "2.80",
       price2: "17.00",
+    },
+    {
+      name: "La Ina",
+      price: "2.70",
+      price2:"13.70",
+    },
+    {
+      name: "Solear",
+      price: "2.80",
+      price2:"14.20",
     },
   ]
   

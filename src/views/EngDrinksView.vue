@@ -1,13 +1,13 @@
 <script setup>
 import EngSelectView from './EngSelectView.vue';
 import { ref, computed } from 'vue'
-import { start,bread,stew,share,friet,sea,meat,special,adds,blancos,tintos,olorosos,} from '@/data/enMenu';
+import { whiteWine, redWine, localWine, softDrinks, hotDrinks, beers, liquors } from '@/data/enDrinks';
 
 const dataSources = {
-  start,bread,stew,share,friet,sea,meat,special,adds,blancos,tintos,olorosos,
+  whiteWine, redWine, localWine, softDrinks, hotDrinks, beers,liquors,
 }
 
-const currentTab = ref('start')
+const currentTab = ref('softDrinks')
 const data = computed(() => dataSources[currentTab.value])
 
 const change = (sectionName) => {
@@ -33,33 +33,23 @@ const change = (sectionName) => {
 // })
 
 const tabLabels = {
-  start: 'To start',
-  bread: 'Whith bread',
-  stew: 'Traditional stews',
-  share: 'To share',
-  friet: 'Sevillian fried food',
-  sea: 'From sea',
-  meat: 'From pasture',
-  special: 'House specialities',
-  adds: 'Mix accessories',
-  blancos: 'White wines',
-  tintos: 'Red wines',
-  olorosos: 'Aromatic wines',
+  softDrinks: 'SoftDrinks',
+  hotDrinks: 'HotDrinks',
+  beers: 'Beers',
+  whiteWine: 'WhiteWine', 
+  redWine: 'RedWine',    
+  localWine: 'LocalWine',
+  liquors: 'Liquors and Spirits',
 }
 
 const tabKeys = [
-  'start',
-  'bread',
-  'stew',
-  'share',
-  'friet',
-  'sea',
-  'meat',
-  'special',
-  'adds',
-  'blancos',
-  'tintos',
-  'olorosos'
+  'softDrinks',
+  'hotDrinks',
+  'beers',
+  'whiteWine',
+  'redWine',
+  'localWine',
+  'liquors',
 ]
 
 </script>
@@ -79,21 +69,23 @@ const tabKeys = [
     <div class="base-table">
         <table class="table">
           <tbody>
-            <tr v-for="{ name, price, price2 } in data" :key="name">
+            <tr v-for="{ name, price, price2, price3 } in data" :key="name">
               <td class="change">{{ name }}</td>
-              <td>{{ price }}</td>
-              <td>{{ price2 }}</td>
+              <td class="prices">{{ price }}</td>
+              <td class="prices">{{ price2 }}</td>
+              <td class="prices">{{ price3 }}</td>
             </tr>
           </tbody>
         </table>
     </div>  
-  <div class="cap-footer">
-    <span>Prices include VAT</span>
-    <span>Ask the waiter about allergens</span>
-    <span>We cannot guarantee that the dishes contain any trace of the allergens</span>
-</div> 
+    <div class="cap-footer">
+      <span>Prices include VAT</span>
+      <span>Ask the waiter about allergens</span>
+      <span>We cannot guarantee that the dishes contain any trace of the allergens</span>
+    </div> 
 
-<EngSelectView />
+  <EngSelectView />
+
 
 </template>
 
@@ -142,7 +134,7 @@ button.current {
   height: 70px;
 }
 
-  .base-table {
+.base-table {
   width: 100vw;
   height: auto;
   min-height: 400px;
@@ -161,7 +153,7 @@ button.current {
   padding: 20px;
   border-radius: 50px;
   color: white;
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 
 td {
@@ -187,6 +179,18 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+text-align: center;
+}
+
+th {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--color-primary);
+  border-radius: 50px;
+  text-align: left;
+}
+
+.prices {
 text-align: center;
 }
 </style>

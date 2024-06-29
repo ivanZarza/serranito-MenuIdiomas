@@ -12,7 +12,17 @@ const router = createRouter({
     {
       path: '/english',
       name: 'english',
+      component: () => import('../views/EngSelectView.vue')
+    },
+    {
+      path: '/english/menu',
+      name: 'englishfood',
       component: () => import('../views/EngMenuView.vue')
+    },
+    {
+      path: '/english/drinks',
+      name: 'englishdrinks',
+      component: () => import('../views/EngDrinksView.vue')
     },
     {
       path: '/français',
