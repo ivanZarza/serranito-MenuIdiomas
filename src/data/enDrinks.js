@@ -480,7 +480,7 @@ export const softDrinks = [
       price3: "",
     },
     {
-      name: "orujo cream",
+      name: "Orujo cream",
       price: "3.10",
       price2: "3.40",
       price3: "",
