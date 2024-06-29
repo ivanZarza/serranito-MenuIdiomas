@@ -144,7 +144,7 @@ export const softDrinks = [
     },
     {
       name: "----------",
-      price3: "----------", 
+      price3: "-------", 
     },
     {
       name: "DRAFT BEER",
@@ -178,7 +178,7 @@ export const softDrinks = [
       price: "PRICE",
     },
     {
-      name: "Café",
+      name: "Coffe",
       price: "2,00",
     },
     {
@@ -194,7 +194,7 @@ export const softDrinks = [
       price: "1.80",
     },
     {
-      name: "Infusión",
+      name: "Infusion",
       price: "1.80",
     },
     {
@@ -474,13 +474,13 @@ export const softDrinks = [
       price3: "",
     },
     {
-      name: "Licor de hierbas",
+      name: "Herbal liqueur",
       price: "2.80",
       price2: "3.10",
       price3: "",
     },
     {
-      name: "Crema de orujo",
+      name: "orujo cream",
       price: "3.10",
       price2: "3.40",
       price3: "",
@@ -498,7 +498,7 @@ export const softDrinks = [
       price3: "",
     },
     {
-      name: "Vodka caramelo",
+      name: "Vodka caramel",
       price: "2.80",
       price2: "3.10",
       price3: "",
@@ -516,19 +516,19 @@ export const softDrinks = [
       price3: "",
     },
     {
-      name: "Castellana dulce",
+      name: "Castellana sweet",
       price: "2.00",
       price2: "2.30",
       price3: "",
     },
     {
-      name: "Castellana seca",
+      name: "Castellana dry",
       price: "2.00",
       price2: "2.30",
       price3: "",
     },
     {
-      name: "Licor manzana sin alcohol",
+      name: "Non-alcoholic apple liqueur",
       price: "2.80",
       price2: "3.10",
       price3: "",
