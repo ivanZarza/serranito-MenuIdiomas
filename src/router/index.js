@@ -27,12 +27,32 @@ const router = createRouter({
     {
       path: '/français',
       name: 'français',
+      component: () => import('../views/FreSelectView.vue')
+    },
+    {
+      path: '/français/menu',
+      name: 'françaisfood',
       component: () => import('../views/FreMenuView.vue')
+    },
+    {
+      path: '/français/drinks',
+      name: 'françaisdrinks',
+      component: () => import('../views/FreDrinksView.vue')
     },
     {
       path: '/deutsch',
       name: 'deutsch',
+      component: () => import('../views/DesSelectView.vue')
+    },
+    {
+      path: '/deutsch/mahlzeit',
+      name: 'desfood',
       component: () => import('../views/DesMenuView.vue')
+    },
+    {
+      path: '/deutsch/trinken',
+      name: 'desdrinks',
+      component: () => import('../views/DesDrinksView.vue')
     },
     {
       path: '/español',

@@ -7,8 +7,8 @@
 
 <template>
     <div>
-      <router-link to="/español/menu"><div class="wrap">COMIDAS</div></router-link>
-      <router-link to="/español/bebidas"><div class="wrap">BEBIDAS</div></router-link>
+      <router-link to="/français/menu"><div class="wrap">REPAS</div></router-link>
+      <router-link to="/français/drinks"><div class="wrap">BOIRE</div></router-link>
     </div>
     <RouterView />  
 

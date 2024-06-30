@@ -68,14 +68,6 @@ export const softDrinks = [
     price: "1.80",
   },
   {
-    name: "batido de vainilla",
-    price: "1.80",
-  },
-  {
-    name: "Zumo de naranja",
-    price: "2.00",
-  },
-  {
     name: "Zumo de melocotón",
     price: "2.00",
   },
@@ -200,10 +192,6 @@ export const hotDrinks = [
   {
     name: "Cappuccino",
     price: "1.80",
-  },
-  {
-    name: "Café irlandés",
-    price: "3.50",
   },
   {
     name: "Infusión",
