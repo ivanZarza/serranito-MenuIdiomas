@@ -1,55 +1,42 @@
 <script setup>
-import DesSelectView from './DesSelectView.vue';
+import ItaSelectViewSelectView from './ItaSelectView.vue';
 import { ref, computed } from 'vue'
-import { whiteWine, redWine, localWine, softDrinks, hotDrinks, beers, liquors } from '@/data/deDrinks';
+import { start,bread,stew,share,friet,sea,meat,special,adds, } from '@/data/itMenu';
 
 const dataSources = {
-  whiteWine, redWine, localWine, softDrinks, hotDrinks, beers,liquors,
+  start,bread,stew,share,friet,sea,meat,special,adds,
 }
 
-const currentTab = ref('softDrinks')
+const currentTab = ref('start')
 const data = computed(() => dataSources[currentTab.value])
 
 const change = (sectionName) => {
   currentTab.value = sectionName
 }
 
-// i18n({
-//   texts: {
-//     en: {
-//       tabsLabels: {
-//         start: 'To start',
-//         bread: 'Whith bread',
-//         stew: 'Traditional stews',
-//         share: 'To share',
-//         friet: 'Sevillian fried food',
-//         sea: 'From sea',
-//         meat: 'From pasture',
-//         special: 'House specialities',
-//         adds: 'Mix accessories',
-//       }
-//     }
-//   },
-// })
 
 const tabLabels = {
-  softDrinks: 'Erfrischungsgetränke',
-hotDrinks: 'Heiße Getränke',
-beers: 'Biere',
-whiteWine: 'Weißweine',
-redWine: 'Rotweine',
-localWine: 'Sherry',
-liquors: 'Spirituosen und Cocktails',
+  start: 'Iniziane',
+  bread: 'Nostri pani',
+  stew: 'Stufati tradizionali',
+  share: 'Qualcosa da Condividere',
+  friet: 'Frittura Sevigliana',
+  sea: 'Dal mare',
+  meat: 'Della dehesa',
+  special: 'Specialità della casa',
+  adds: 'Parecchi',
 }
 
 const tabKeys = [
-  'softDrinks',
-  'hotDrinks',
-  'beers',
-  'whiteWine',
-  'redWine',
-  'localWine',
-  'liquors',
+  'start',
+  'bread',
+  'stew',
+  'share',
+  'friet',
+  'sea',
+  'meat',
+  'special',
+  'adds'
 ]
 
 </script>
@@ -69,23 +56,21 @@ const tabKeys = [
     <div class="base-table">
         <table class="table">
           <tbody>
-            <tr v-for="{ name, price, price2, price3 } in data" :key="name">
+            <tr v-for="{ name, price, price2 } in data" :key="name">
               <td class="change">{{ name }}</td>
-              <td class="prices">{{ price }}</td>
-              <td class="prices">{{ price2 }}</td>
-              <td class="prices">{{ price3 }}</td>
+              <td>{{ price }}</td>
+              <td>{{ price2 }}</td>
             </tr>
           </tbody>
         </table>
     </div>  
   <div class="cap-footer">
-    <span>Die Preise verstehen sich inklusive Mehrwertsteuer</span>
-    <span>Fragen Sie den Kellner nach Allergenen</span>
-    <span>Wir können nicht garantieren, dass Spuren der angegebenen Allergene vorhanden sind</span>
+    <span>I prezzi includono l'IVA</span>
+    <span>Chiedi al cameriere informazioni sugli allergeni</span>
+    <span>Non possiamo garantire la presenza di tracce di nessuno degli allergeni indicati</span>
 </div> 
 
-  <DesSelectView />
-
+  <ItaSelectView />
 
 </template>
 
@@ -107,7 +92,7 @@ const tabKeys = [
 
 button {
   margin: 2px;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   font-weight: bold;
   padding: 5px;
@@ -179,18 +164,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-text-align: center;
-}
-
-th {
-  font-size: 20px;
-  font-weight: bold;
-  color: var(--color-primary);
-  border-radius: 50px;
-  text-align: left;
-}
-
-.prices {
 text-align: center;
 }
 

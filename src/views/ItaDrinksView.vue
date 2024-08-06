@@ -1,7 +1,7 @@
 <script setup>
-import DesSelectView from './DesSelectView.vue';
+import ItaSelectView from './ItaSelectView.vue';
 import { ref, computed } from 'vue'
-import { whiteWine, redWine, localWine, softDrinks, hotDrinks, beers, liquors } from '@/data/deDrinks';
+import { whiteWine, redWine, localWine, softDrinks, hotDrinks, beers, liquors } from '@/data/itDrinks';
 
 const dataSources = {
   whiteWine, redWine, localWine, softDrinks, hotDrinks, beers,liquors,
@@ -14,32 +14,14 @@ const change = (sectionName) => {
   currentTab.value = sectionName
 }
 
-// i18n({
-//   texts: {
-//     en: {
-//       tabsLabels: {
-//         start: 'To start',
-//         bread: 'Whith bread',
-//         stew: 'Traditional stews',
-//         share: 'To share',
-//         friet: 'Sevillian fried food',
-//         sea: 'From sea',
-//         meat: 'From pasture',
-//         special: 'House specialities',
-//         adds: 'Mix accessories',
-//       }
-//     }
-//   },
-// })
-
 const tabLabels = {
-  softDrinks: 'Erfrischungsgetränke',
-hotDrinks: 'Heiße Getränke',
-beers: 'Biere',
-whiteWine: 'Weißweine',
-redWine: 'Rotweine',
-localWine: 'Sherry',
-liquors: 'Spirituosen und Cocktails',
+  softDrinks: 'Rinfreschi',
+  hotDrinks: 'Caffè',
+  beers: 'Birre',
+  whiteWine: 'Vini Bianchi', 
+  redWine: 'Vini rossi',    
+  localWine: 'Vini aromatici',
+  liquors: 'Liquori e bevande miste',
 }
 
 const tabKeys = [
@@ -79,12 +61,12 @@ const tabKeys = [
         </table>
     </div>  
   <div class="cap-footer">
-    <span>Die Preise verstehen sich inklusive Mehrwertsteuer</span>
-    <span>Fragen Sie den Kellner nach Allergenen</span>
-    <span>Wir können nicht garantieren, dass Spuren der angegebenen Allergene vorhanden sind</span>
+    <span>Los precios incluyen IVA</span>
+    <span>Pregunte al camarero por los alergenos</span>
+    <span>No podemos garantizar la presencia de trazas de cualquiera de los alergenos indicados</span>
 </div> 
 
-  <DesSelectView />
+  <ItaSelectView />
 
 
 </template>
@@ -107,7 +89,7 @@ const tabKeys = [
 
 button {
   margin: 2px;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   font-weight: bold;
   padding: 5px;
@@ -193,5 +175,4 @@ th {
 .prices {
 text-align: center;
 }
-
 </style>

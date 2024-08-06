@@ -55,6 +55,21 @@ const router = createRouter({
       component: () => import('../views/DesDrinksView.vue')
     },
     {
+      path: '/italiano',
+      name: 'italiano',
+      component: () => import('../views/ItaSelectView.vue')
+    },
+    {
+      path: '/italiano/menu',
+      name: 'itacomidas',
+      component: () => import('../views/ItaMenuView.vue')
+    },
+    {
+      path: '/italiano/bevande',
+      name: 'itabebidas',
+      component: () => import('../views/ItaDrinksView.vue')
+    },
+    {
       path: '/español',
       name: 'español',
       component: () => import('../views/EspSelectView.vue')

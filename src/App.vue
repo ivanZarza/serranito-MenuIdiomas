@@ -25,6 +25,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/english"><div>🏴󠁧󠁢󠁥󠁮󠁧󠁿</div></RouterLink>
       <RouterLink to="/français"><div>🇫🇷</div></RouterLink>
       <RouterLink to="/deutsch"><div>🇩🇪</div></RouterLink>
+      <RouterLink to="/italiano"><div>🇮🇹</div></RouterLink>
       <RouterLink to="/español"><div>🇪🇦</div></RouterLink>
     </nav>
     <RouterView />
