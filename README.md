@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td style="vertical-align: top; width: 160px;">
-      <img src="public/Foto-movil.jpeg" alt="MenuIdiomas en móvil" width="150"/>
+      <img src="Foto-movil.jpeg" alt="imagen en móvil" width="150"/>
     </td>
     <td style="vertical-align: top;">
       <b>¡Bienvenido a <code>MenuIdiomas</code>!</b><br>
