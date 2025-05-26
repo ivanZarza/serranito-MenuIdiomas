@@ -1,29 +1,24 @@
-# MenuIdiomas
+# 📱 MenuIdiomas
 
-This template should help get you started developing with Vue 3 in Vite.
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 160px;">
+      <img src="public/Foto-movil.jpeg" alt="MenuIdiomas en móvil" width="150"/>
+    </td>
+    <td style="vertical-align: top;">
+      <b>¡Bienvenido a <code>MenuIdiomas</code>!</b><br>
+      Este proyecto es una aplicación desarrollada con <b>Vue 3</b> y <b>Vite</b> para mostrar menús de restaurante en varios idiomas de forma sencilla y elegante.
+    </td>
+  </tr>
+</table>
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 🚀 Características
 
-## Customize configuration
+- 🌍 Menús multilingües (Español, Alemán, etc.)
+- 🍽️ Navegación intuitiva entre categorías (Refrescos, Cafés, Cervezas, Vinos, Licores...)
+- 💡 Interfaz moderna y responsive
+- ⚡️ Desarrollado con Vue 3 + Vite para máxima velocidad
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+---
