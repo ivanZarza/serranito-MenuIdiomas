@@ -8,8 +8,6 @@
 
 <br clear="left"/>
 
----
-
 ## 🚀 Características
 
 - 🌍 Menús multilingües (Español, Alemán, etc.)
